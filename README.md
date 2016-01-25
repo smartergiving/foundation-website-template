@@ -35,4 +35,4 @@ We're actively working on integrating historically popular grant specs like Foun
 
 For those familiar with Jekyll and Github Pages (or our current crush [Netlify](https://www.netlify.com/)), the template is fully compatible with the `github-pages` gem (no plugins, etc).  
 
-For everyone else, detailed instruction coming soon!
+For everyone else, detailed instructions coming soon!
