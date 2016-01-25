@@ -17,19 +17,18 @@ The project has two primary goals:
  
   - For smaller foundations, it's meant to be 100% maintenance free.  
    
-   
- #### Purpose  
- 
- Our mission at [SmarterGiving](https://smartergiving.org) is to advance the openness of the philanthropic world through accessible technology.  
- 
- We want to make it as simple as possible to share whatever grantmaking information you're comfortable sharing.  
- 
- #### Future  
- 
- We're actively working on integrating historically popular grant specs like Foundation Center's [hGrant](http://foundationcenter.org/grantmakers/hgrant.html) while pushing those standards to incorporate the realities of the modern funder.  
- 
- ## Usage  
- 
- For those familiar with Jekyll and Github Pages (or our current crush [Netlify](https://www.netlify.com/)), the template is fully compatible with the `github-pages` gem (no plugins, etc).  
- 
- For everyone else, detailed instruction coming soon!
+#### Purpose  
+
+Our mission at [SmarterGiving](https://smartergiving.org) is to advance the openness of the philanthropic world through accessible technology.  
+
+We want to make it as simple as possible to share whatever grantmaking information you're comfortable sharing.  
+
+#### Future  
+
+We're actively working on integrating historically popular grant specs like Foundation Center's [hGrant](http://foundationcenter.org/grantmakers/hgrant.html) while pushing those standards to incorporate the realities of the modern funder.  
+
+## Usage  
+
+For those familiar with Jekyll and Github Pages (or our current crush [Netlify](https://www.netlify.com/)), the template is fully compatible with the `github-pages` gem (no plugins, etc).  
+
+For everyone else, detailed instruction coming soon!
