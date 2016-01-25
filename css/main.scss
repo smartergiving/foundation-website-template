@@ -1,0 +1,129 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/*********************************************************************************/
+/* Variables                                                                     */
+/*********************************************************************************/
+
+// Media query breakpoints
+// Extra small screen / phone
+$screen-xs:                  480px !default;
+$screen-xs-min:              $screen-xs !default;
+$screen-phone:               $screen-xs-min !default;
+
+// Small screen / tablet
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+$screen-desktop:             $screen-md-min !default;
+
+// Large screen / wide desktop
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+$screen-lg-desktop:          $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
+/*********************************************************************************/
+/* Mixins                                                                        */
+/*********************************************************************************/
+
+// Use media queries like this:
+// @include media-query($screen-xs-min) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+/*********************************************************************************/
+/* Skel Default                                                                  */
+/*********************************************************************************/
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import 'skel/vars';
+@import 'skel/functions';
+@import 'skel/mixins';
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import "skel/skel";
+
+/*********************************************************************************/
+/* HTML5Up Theme                                                                 */
+/*********************************************************************************/
+/*
+  Strata by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+@import 'skel/theme';
+
+/*********************************************************************************/
+/* Site CSS                                                                      */
+/*********************************************************************************/
+
+/* Landing Page */
+#header, #header h1, #header a, #footer {
+  //color: rgba(255, 255, 255, 0.5); // Default - good for darker backgrounds
+  color: #f0f0f0;
+}
+
+#header, #footer {
+  font-size: .9rem;
+}
+
+#header {
+  //background-color: _palette(accent2, bg); //Default
+  background-color: #a6a6a6;
+  a {
+    border: none;
+  }
+  img {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  nav {
+    margin-top: 30px;
+    ul {
+      list-style-type: none;
+    }
+  }
+}
+
+/* Featured */
+.card {
+  padding: 40px;
+  text-align: left;
+}
+
+.poptrox-popup .caption {
+  background-color: #e9e9e9;
+}
+
+.image.thumb:after {
+  content: 'Read More';
+}
+
+/* Grantees */
+a.grantee-thumb {
+  border: none;
+}
+
+.thumb-fit {
+  //object-fit: cover;
+  max-width: 150px;
+  max-height: 100px;
+}

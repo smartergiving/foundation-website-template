@@ -1,0 +1,10 @@
+<nav>
+  <ul>
+    <li><a href="{{base}}/">Home</a></li>
+    <li><a href="{{base}}/mission">Our Mission</a></li>
+    <li><a href="{% if page.url == '/' %}#two{% else %}{{base}}/#two{% endif %}" class="scrolly">Featured Projects</a></li>
+    <li><a href="{{base}}/grantees">Grantees</a></li>
+    <li><a href="{{base}}/about">About Us</a></li>
+    <li><a href="{% if page.url == '/' %}#three{% else %}{{base}}/#three{% endif %}" class="scrolly">Contact</a></li>
+  </ul>
+</nav>
