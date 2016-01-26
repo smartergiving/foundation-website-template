@@ -109,6 +109,13 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
   text-align: left;
 }
 
+// Adjust card popup styling
+// Adjusting poptrox settings via js does not appear to be stable
+.poptrox-popup .closer:before {
+  //color: _palette(fg);
+  //content: '\f057';
+}
+
 .poptrox-popup .caption {
   background-color: #e9e9e9;
 }

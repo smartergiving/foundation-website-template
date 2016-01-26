@@ -20,36 +20,13 @@ layout: default
       <section id="two">
         <h2>Featured Projects</h2>
         <div class="row">
-          <article class="6u 12u$(xsmall) work-item">
-            <a href="{{base}}/featured-cards/01.html" class="image fit thumb" data-poptrox="ajax,600x400"><img src="images/cards/01.jpg" alt="" /></a>
-            <h3>Magna sed consequat tempus</h3>
-            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-          </article>
-          <article class="6u$ 12u$(xsmall) work-item">
-            <a href="{{base}}/featured-cards/02.html" class="image fit thumb" data-poptrox="ajax,600x400"><img src="images/cards/02.jpg" alt="" /></a>
-            <h3>Ultricies lacinia interdum</h3>
-            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-          </article>
-          <article class="6u 12u$(xsmall) work-item">
-            <a href="{{base}}/featured-cards/03.html" class="image fit thumb" data-poptrox="ajax,600x400"><img src="images/cards/03.jpg" alt="" /></a>
-            <h3>Tortor metus commodo</h3>
-            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-          </article>
-          <article class="6u$ 12u$(xsmall) work-item">
-            <a href="{{base}}/featured-cards/04.html" class="image fit thumb" data-poptrox="ajax,600x400"><img src="images/cards/04.jpg" alt="" /></a>
-            <h3>Quam neque phasellus</h3>
-            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-          </article>
-          <article class="6u 12u$(xsmall) work-item">
-            <a href="{{base}}/featured-cards/05.html" class="image fit thumb" data-poptrox="ajax,600x400"><img src="images/cards/05.jpg" alt="" /></a>
-            <h3>Nunc enim commodo aliquet</h3>
-            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-          </article>
-          <article class="6u$ 12u$(xsmall) work-item">
-            <a href="{{base}}/featured-cards/06.html" class="image fit thumb" data-poptrox="ajax,600x400"><img src="images/cards/06.jpg" alt="" /></a>
-            <h3>Risus ornare lacinia</h3>
-            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-          </article>
+            {% for each in site.featured-cards %}
+              <article class="6u 12u$(xsmall) work-item">
+                <a href="{{base}}/featured-cards/{{ each.card_id }}.html" class="image fit thumb" data-poptrox="ajax,600x400"><img src="images/featured-cards/{{ each.card_id }}.jpg" alt="" /></a>
+                <h3>{{ each.project_title }}</h3>
+                <p>{{ each.project_summary }}</p>
+              </article>
+            {% endfor %}
         </div>
         <ul class="actions">
           <li><a href="{{ base }}/grantees/" class="button">All Grantees</a></li>

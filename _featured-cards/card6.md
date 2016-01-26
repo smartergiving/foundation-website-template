@@ -1,5 +1,9 @@
 ---
 layout: card
+card_id: card6
+project_title: Risus ornare lacinia
+project_summary: Lorem ipsum dolor sit amet nisl sed nullam feugiat
+featured: true
 ---
 Convallis ipsum sed eu. At vitae sollicitudin hac in, orci cras turpis. Suscipit neque tortor, tortor tortor sit orci libero et, sollicitudin nam vehicula ipsum in ipsum. Mauris rutrum morbi non, ac vitae vitae, elementum id at vestibulum enim amet nonummy, ac eget, eu id. Itaque pede phasellus suscipit nam. Interdum aliquam orci interdum, libero pellentesque nam, vestibulum praesent vestibulum at a, gravida vitae curabitur quam.
 

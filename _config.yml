@@ -17,6 +17,9 @@ description: > # this means to start on the next line (which needs to be indente
   The Example Foundation erat sit proin magnis duis, vulputate wisi vel hac, sed justo turpis leo sit hac mauris, maecenas sem dapibus neque malesuada ante, congue arcu..
 
 # Jekyll settings
+collections:
+  featured-cards:
+    output: true
 safe: true # If using Github Pages, it's a good idea to keep this as 'true'
 baseurl: "" # Leave this blank unless your site is located on a subpath, e.g. /blog
 url: "https://foundation-template.smartergiving.org" # Typically http://www.yourdomain.org
