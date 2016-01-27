@@ -14,6 +14,7 @@ permalink: /grantees/
       </section>
 
     <!-- Grants -->
+    <!--
     {% assign grants = site.data.grants.all | group_by: "grant_year" %}
       {% for group in grants %}
         <section id="{{ group.name }}">
@@ -33,6 +34,7 @@ permalink: /grantees/
               <td>{{ grant.grant_purpose }}</td>
             </tr>
           {% endfor %}
+          -->
           <!-- Example w/ Logo -->
           <!--tr>
             <td><a class="grantee-thumb" target="_blank" href="{{grant.grantee_url}}"><img class="thumb-fit" src="{{base}}/images/grantees/{{grant.grant_logo_path}}" /></a></td><td><a target="_blank" href="{{grant.grant.grantee_url}}">{{grant.grantee_name}}</a></td>
