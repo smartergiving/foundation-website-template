@@ -13,23 +13,33 @@ permalink: /grantees/
         <p>Lorem ipsum dolor sit amet, nunc mauris sed parturient cum erat. Pellentesque sed sapien massa sodales vivamus velit, luctus cras, elementum facilisis velit enim porta mi mollis, sed vitae non libero arcu.</p>
       </section>
 
-    <!-- Two -->
-      <section id="two">
-        <h5>Most Recent</h5>
-        <table border="0px">
-          <tr>
-            <td><a class="grantee-thumb" target="_blank" href="https://smartergiving.org"><img class="thumb-fit" src="{{base}}/images/grantees/smartergiving.png" /></a></td><td><a target="_blank" href="https://smartergiving.org">SmarterGiving.org</a></td>
+    <!-- Grants -->
+    {% assign grants = site.data.grants.all | group_by: "grant_year" %}
+      {% for group in grants %}
+        <section id="{{ group.name }}">
+          <h3>{{ group.name }}</h3>
+          <table border="0px">
+          {% for grant in group.items %}
+            <tr>
+              <td>
+                {% if grant.grantee_url %}
+                  <a target="_blank" href="{{ grant.grantee_url}}">{{ grant.grantee_name}}</a>
+                {% else %}
+                  {{ grant.grantee_name}}
+                {% endif %}
+              </td>
+              <td>{{ grant.grantee_location }}</td>
+              <td>{{ grant.grant_amount | prepend:'$' }}</td>
+              <td>{{ grant.grant_purpose }}</td>
+            </tr>
+          {% endfor %}
+          <!-- Example w/ Logo -->
+          <!--tr>
+            <td><a class="grantee-thumb" target="_blank" href="{{grant.grantee_url}}"><img class="thumb-fit" src="{{base}}/images/grantees/{{grant.grant_logo_path}}" /></a></td><td><a target="_blank" href="{{grant.grant.grantee_url}}">{{grant.grantee_name}}</a></td>
           </tr>
-          <tr>
-            <td><a class="grantee-thumb" target="_blank" href="https://kyn.github.io/kyn-platform"><img class="thumb-fit" src="{{base}}/images/grantees/kyn.png" /></a></td><td><a target="_blank" href="https://kyn.github.io/kyn-platform">The Kyn Project</a></td>
-          </tr>
-          <tr>
-            <td><a class="grantee-thumb" target="_blank" href="http://www.worldwatch.org"><img class="thumb-fit" src="{{base}}/images/grantees/worldwatch.gif" /></a></td><td><a target="_blank" href="http://www.worldwatch.org">WorldWatch Institute</a></td>
-          </tr>
-          <tr>
-            <td><a class="grantee-thumb" target="_blank" href="http://www.alfo.org/"><img class="thumb-fit" src="{{base}}/images/grantees/alfo.gif" /></a></td><td><a target="_blank" href="http://www.alfo.org/">American Leadership Forum</a></td>
-          </tr>
+          <tr-->
         </table>
       </section>
+    {% endfor %}
 
   </div>
