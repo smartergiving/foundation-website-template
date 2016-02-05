@@ -67,8 +67,7 @@
       // Parallax background.
 
         // Disable parallax on IE (smooth scrolling is jerky), and on mobile platforms (= better performance).
-          if (skel.vars.browser == 'ie'
-          ||  skel.vars.mobile)
+          if (skel.vars.browser == 'ie' || skel.vars.mobile)
             settings.parallax = false;
 
         if (settings.parallax) {
