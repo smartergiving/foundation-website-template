@@ -20,6 +20,7 @@ permalink: /grantees/
           <h3>{{ group.name }}</h3>
           <table border="0px">
           {% for grant in group.items %}
+          {% capture total_grant_count %}{{ forloop.length }}{% endcapture %}
             <tr>
               <td>
                 {% if grant.grantee_url %}
@@ -29,10 +30,16 @@ permalink: /grantees/
                 {% endif %}
               </td>
               <td>{{ grant.grantee_location }}</td>
-              <td>{{ grant.grant_amount | prepend:'$' }}</td>
+              <td data-grant-group-name="{{ group.name }}" data-grant-amount="{{ grant.grant_amount }}">{{ grant.grant_amount }}</td>
               <td>{{ grant.grant_purpose }}</td>
             </tr>
           {% endfor %}
+            <tr>
+              <td>{{ total_grant_count }} Grants</td>
+              <td></td>
+              <td data-grant-group-total="{{ group.name }}"></td>
+              <td></td>
+            </tr>
           <!-- Example w/ Logo -->
           <!--tr>
             <td><a class="grantee-thumb" target="_blank" href="{{grant.grantee_url}}"><img class="thumb-fit" src="{{base}}/images/grantees/{{grant.grant_logo_path}}" /></a></td><td><a target="_blank" href="{{grant.grant.grantee_url}}">{{grant.grantee_name}}</a></td>
