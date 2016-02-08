@@ -4,6 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }}{% elsif site.title %}{{ site.title }}{% else %}{{ site.foundation_name }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if site.live == true %}
+    <meta name="robots" content="index, follow">
+  {% else %}
+    <meta name="robots" content="noindex, nofollow">
+  {% endif %}
   <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
   <link rel="stylesheet" href="/fonts/font-awesome.min.css" />
   <link rel="stylesheet" href="/css/main.css" />
