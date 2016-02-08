@@ -1,0 +1,27 @@
+<!-- Footer -->
+<footer id="footer" class="footer-narrow">
+  <ul class="icons">
+    {% if site.twitter %}
+      <li><a href="{{site.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+    {% endif %}
+    {% if site.facebook %}
+      <li><a href="{{site.facebook}}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+    {% endif %}
+    {% if site.instagram %}
+      <li><a href="{{site.instagram}}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+    {% endif %}
+    {% if site.github %}
+      <li><a href="{{site.github}}" class="icon fa-github"><span class="label">Github</span></a></li>
+    {% endif %}
+  </ul>
+  {% if site.foundation_name %}
+  <ul class="copyright">
+    <li>&copy; {{ site.foundation_name }}</li>
+  </ul>
+  {% endif %}
+  <ul class="copyright copyright-narrow">
+    <li>Powered By: <a href="http://smartergiving.org">SmarterGiving</a></li>
+    <!-- NOTE: You must pay for a commercial license from HTML5Up.net to remove the next link-->
+    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+  </ul>
+</footer>

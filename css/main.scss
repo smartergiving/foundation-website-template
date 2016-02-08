@@ -121,6 +121,32 @@ $screen-lg-max:              ($screen-xl-min - 1) !default;
   }
 }
 
+// Wide layout : main section wider | sidebar section narrower
+$wide-layout-margin: 20%;
+
+.img-avatar {
+  display: none;
+}
+
+@media screen and (min-width: $screen-lg-min) {
+  .header-narrow, .footer-narrow {
+    width: $wide-layout-margin !important;
+    padding-right: 3em !important;
+  }
+
+  .main-wide {
+    margin-left: $wide-layout-margin !important;
+    max-width: 100% !important;
+    width: calc(100% - #{$wide-layout-margin}) !important;
+  }
+
+  .copyright-narrow {
+    li {
+      border-left: none !important;
+    }
+  }
+}
+
 /* Featured */
 .card {
   padding: 40px;
