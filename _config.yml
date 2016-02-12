@@ -29,9 +29,10 @@ safe: true # If using Github Pages, it's a good idea to keep this as 'true'
 baseurl: "" # Leave this blank unless your site is located on a subpath, e.g. /blog
 url: "https://foundation-template.smartergiving.org" # Typically http://www.yourdomain.org
 
-
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 exclude: 
   - README.md
   - /images/photoshop-helpers
