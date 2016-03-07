@@ -6,7 +6,7 @@ If you have a site that was built over three years ago you're in the right place
 
 #### Screenshots  
 
-![Screenshot](https://github.com/smartergiving/foundation-website-template/blob/master/images/readme-screenshot.jpg "Screenshot")  
+![Screenshot](https://github.com/smartergiving/foundation-website-template/blob/master/assets/images/readme-screenshots/responsive.png "Screenshot")  
 
 The project has two primary goals:
 
