@@ -105,7 +105,8 @@ $screen-lg-max:              ($screen-xl-min - 1) !default;
 
 #header {
   //background-color: _palette(accent2, bg); //Default
-  background-color: #a6a6a6;
+  background-color: #a6a6a6; //This color should match the bottom of the background image
+  background-size: auto, auto 115%; //Extend beyond screen to allow for parallax scroll
   a {
     border: none;
   }
