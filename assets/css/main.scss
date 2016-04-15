@@ -131,7 +131,7 @@ $screen-lg-max:              ($screen-xl-min - 1) !default;
         color: _palette(accent1, fg-light);
         &:hover {
           cursor: default;
-          color: _palette(accent1, bg) !important;
+          color: _palette(accent1, fg-light) !important;
         }
         @media only screen and (max-width: $screen-sm-max) {
           background-color: _palette(accent1, bg);
