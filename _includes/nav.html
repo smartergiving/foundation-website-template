@@ -1,10 +1,10 @@
 <nav>
   <ul>
-    <li><a href="{{ site.baseurl }}/">Home</a></li>
-    <li><a href="{{ site.baseurl }}/mission">Our Mission</a></li>
-    <li><a href="{% if page.url == '/' %}#featured{% else %}{{ site.baseurl }}/#featured{% endif %}" class="scrolly">Featured Projects</a></li>
-    <li><a href="{{ site.baseurl }}/grantees">Grantees</a></li>
-    <li><a href="{{ site.baseurl }}/about">About Us</a></li>
+    <li><a href="{{ site.baseurl }}/" {% if page.url == '/' %} class="active" {% endif %}>Home</a></li>
+    <li><a href="{{ site.baseurl }}/mission/" {% if page.url == '/mission/' %} class="active" {% endif %}>Mission</a></li>
+    <!--li><a href="{% if page.url == '/' %}#featured{% else %}{{ site.baseurl }}/#featured{% endif %}" class="scrolly">Featured Projects</a></li-->
+    <li><a href="{{ site.baseurl }}/grantees/" {% if page.url == '/grantees/' %} class="active" {% endif %}>Grantees</a></li>
+    <li><a href="{{ site.baseurl }}/about/" {% if page.url == '/about/' %} class="active" {% endif %}>About</a></li>
     <li><a href="{% if page.url == '/' %}#three{% else %}{{ site.baseurl }}/#three{% endif %}" class="scrolly">Contact</a></li>
   </ul>
 </nav>

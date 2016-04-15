@@ -106,9 +106,17 @@ $screen-lg-max:              ($screen-xl-min - 1) !default;
 #header {
   //background-color: _palette(accent2, bg); //Default
   background-color: #a6a6a6; //This color should match the bottom of the background image
-  background-size: auto, auto 115%; //Extend beyond screen to allow for parallax scroll
+  @media only screen and (min-width: $screen-md-min) {
+    background-size: auto, auto 115%; //Extend beyond screen to allow for parallax scroll
+  }
+  @media only screen and (max-width: $screen-sm-max)  {
+    background-position: top left, center center !important; //Fix positioning flicker for non-CDN sites
+  }
   a {
     border: none;
+    &:hover {
+      color: _palette(accent1, fg-light) !important;
+    }
   }
   img {
     width: 60%;
@@ -118,6 +126,32 @@ $screen-lg-max:              ($screen-xl-min - 1) !default;
     margin-top: 30px;
     ul {
       list-style-type: none;
+      li a.active {
+        cursor: default;
+        color: _palette(accent1, fg-light);
+        &:hover {
+          cursor: default;
+          color: _palette(accent1, bg) !important;
+        }
+        @media only screen and (max-width: $screen-sm-max) {
+          background-color: _palette(accent1, bg);
+          color: white;
+          padding: 5px 20px;
+          border-radius: 3px;
+          &:hover {
+            cursor: default;
+            color: white !important;
+          }
+        }
+        @media only screen and (min-width: $screen-md-min) {
+          &:before {
+            margin-right: 5px;
+            font-family: 'FontAwesome';
+            content: '\f054'; //chevron
+            //content: '\f0a9'; //circle arrow
+          }
+        }
+      }
     }
   }
 }

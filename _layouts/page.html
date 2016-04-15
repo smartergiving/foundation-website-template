@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+
+  {% include head.html %}
+
+  <body id="top">
+    {% include base.html %}
+    {% include header.html %}
+
+    <!-- Main -->
+    <div id="main">
+
+      <!-- One -->
+      <section id="one">
+        <header class="major">
+          <h2>{{ page.header_title }}</h2>
+        </header>
+        {% if page.header_intro %}
+          <p>{{ page.header_intro }}</p>
+        {% endif %}
+      </section>
+
+      <!-- Two -->
+      <section id="two" class="page">
+        {{ content }}
+      </section>
+    </div>
+    
+    {% include footer.html %}
+    {% include body-scripts.html %}
+  </body>
+  
+</html>
