@@ -25,6 +25,8 @@ url: "https://foundation-template.smartergiving.org" # Typically http://www.your
 collections:
   featured-cards:
     output: true
+  grantees:
+    output: true
 sass:
   sass_dir: assets/css/_sass
 

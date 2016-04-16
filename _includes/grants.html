@@ -1,0 +1,52 @@
+<!-- One -->
+<section id="one">
+  <header class="major">
+    <h2>Grantees</h2>
+  </header>
+  <ul class="actions actions-grants-nav">
+    {% assign option_values = site.data.grants %}
+    {% for each in option_values reversed %}
+      {% assign match1 = page.data_file_name | downcase %}
+      {% capture match2 %}{{each[0] | downcase}}{% endcapture %}
+        {% if match1 == match2 %}
+          <li><span class="button small button-fit special">{{each[0]}}</span></li>
+        {% else %}
+          <li><a href="{{ site.baseurl }}/grantees/{{each[0]}}" class="button small button-fit">{{each[0]}}</a></li>
+        {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="grant-wrapper">
+  {% capture selected_year %}{{page.data_file_name}}{% endcapture %}
+  {% assign grants = site.data.grants.[selected_year] | group_by: page.group_by_field %}
+  <!-- Grants -->
+  {% for group in grants %}
+    <section id="{{ group.name | slugify }}">
+      <h3>{{ group.name }}</h3>
+      <table border="0px">
+        {% for grant in group.items %}
+        {% capture total_grant_count %}{{ forloop.length }}{% endcapture %}
+          <tr>
+            <td>
+              {% if grant.grantee_url %}
+                <a target="_blank" href="{{ site.baseurl }}/{{ grant.grantee_url}}">{{ grant.grantee_name}}</a>
+              {% else %}
+                {{ grant.grantee_name}}
+              {% endif %}
+            </td>
+            <td>{{ grant.grantee_location }}</td>
+            <td data-grant-group-name="{{ group.name }}" data-grant-amount="{{ grant.grant_amount }}">{{ grant.grant_amount }}</td>
+            <td>{{ grant.grant_purpose }}</td>
+          </tr>
+        {% endfor %}
+        <tr>
+          <td>{{ total_grant_count }} Grants</td>
+          <td></td>
+          <td data-grant-group-total="{{ group.name }}"></td>
+          <td></td>
+        </tr>
+      </table>
+    </section>
+  {% endfor %}
+</section>
