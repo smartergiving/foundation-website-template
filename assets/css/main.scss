@@ -156,6 +156,25 @@ $screen-lg-max:              ($screen-xl-min - 1) !default;
   }
 }
 
+// Scroll indicator
+.scroll-indicator {
+  display: none;
+  @media only screen and (max-width: $screen-sm-max)  {
+    display: block;
+    z-index: 100;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0.5;
+    a {
+      color: _palette(accent1, bg) !important;
+    }
+    &:hover {
+      opacity: 1.0;
+    }
+  }
+}
+
 // Wide layout : main section wider | sidebar section narrower
 $wide-layout-margin: 20%;
 
