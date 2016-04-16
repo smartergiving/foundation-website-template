@@ -5,7 +5,7 @@
   </header>
   <ul class="actions actions-grants-nav">
     {% assign option_values = site.data.grants %}
-    {% for each in option_values reversed %}
+    {% for each in option_values %}
       {% assign match1 = page.data_file_name | downcase %}
       {% capture match2 %}{{each[0] | downcase}}{% endcapture %}
         {% if match1 == match2 %}
