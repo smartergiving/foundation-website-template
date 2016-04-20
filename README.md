@@ -33,9 +33,13 @@ We're actively working on integrating historically popular grant specs like Foun
 
 ## Usage  
 
-For those familiar with Jekyll and Github Pages (or our current crush [Netlify](https://www.netlify.com/)), the template is fully compatible with the `github-pages` gem and the `safe: true` flag (i.e. does not use any plugins, etc).  
+For those familiar with Jekyll and Github Pages, the template is fully compatible with the `github-pages` gem (i.e. does not use any plugins).  
 
-For everyone else, **detailed instructions coming soon!**  
+1. **Config File**: Enter your foundation's information in the appropriate fields in `_config.yml`. Do not remove any fields, simply leave them blank if not needed (e.g. twitter profile).
+
+2. **Navigation**: If you need to change the left handed navigation links, you'll need to adjust the HTML found in `_includes/nav.html`. Create new pages in the `pages/` directory to match any new links you create. Be sure to use lowercase and hyphens in the names if needed (e.g. use `our-story.md`).
+
+3. **Featured Projects**: The featured project cards are found in the `_featured-cards/` directory. Images are found in `assets/images/featured-cards/`.
 
 ## License & Credits  
 
