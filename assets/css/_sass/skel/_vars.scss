@@ -5,11 +5,13 @@
 
 // Duration.
 	$duration: (
+    navPanel:     0.5s,
 		transition:			0.2s
 	);
 
 // Size.
 	$size: (
+    navPanel:     275px,
 		border-radius:		0.35em,
 		element-height:		2.75em,
 		element-margin:		2em

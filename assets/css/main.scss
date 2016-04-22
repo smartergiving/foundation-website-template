@@ -93,6 +93,115 @@ $screen-lg-max:              ($screen-xl-min - 1) !default;
   padding-bottom: 2em;
 }
 
+/* Nav */
+#navPanel, #navButton {
+  display: none;
+}
+
+@media only screen and (max-width: $screen-md-max)  {
+  
+  #nav {
+    display: none;
+  }
+
+  /* Off-Canvas Navigation */
+
+  #page-wrapper {
+    @include vendor('backface-visibility', 'hidden');
+    @include vendor('transition', 'transform #{_duration(navPanel)} ease');
+    padding-bottom: 1px;
+  }
+
+  #navButton {
+    @include vendor('backface-visibility', 'hidden');
+    @include vendor('transition', 'transform #{_duration(navPanel)} ease');
+    display: block;
+    height: 44px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: _misc(z-index-base) + 1;
+
+    .toggle {
+      background: rgba(192,192,192,0.75);
+      border-bottom: none;
+      border-radius: _size(border-radius);
+      color: #fff;
+      display: block;
+      font-size: 16px;
+      height: 2.25em;
+      left: 0.5em;
+      line-height: 2.25em;
+      position: absolute;
+      text-align: center;
+      top: 0.5em;
+      width: 4.5em;
+      &:hover {
+        background-color: rgba(192, 192, 192, 0.85);
+        color: #fff !important;
+      }
+    }
+  }
+
+  #navPanel {
+    @include vendor('backface-visibility', 'hidden');
+    @include vendor('transform', 'translateX(#{_size(navPanel) * -1})');
+    @include vendor('transition', ('transform #{_duration(navPanel)} ease'));
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    width: _size(navPanel);
+    z-index: _misc(z-index-base) + 2;
+    background: darken(_palette(accent1, bg), 10);
+    color: _palette(accent1, fg);
+
+    .link {
+      border-bottom: 0;
+      border-top: solid 1px rgba(255,255,255,0.05);
+      color: _palette(accent1, fg);
+      display: block;
+      height: 44px;
+      line-height: 44px;
+      padding: 0 1em 0 1em;
+      text-decoration: none;
+
+      &:first-child {
+        border-top: 0;
+      }
+
+      &.depth-0 {
+        color: _palette(accent1, fg-bold);
+      }
+
+      .indent-1 { display: inline-block; width: 1em; }
+      .indent-2 { display: inline-block; width: 2em; }
+      .indent-3 { display: inline-block; width: 3em; }
+      .indent-4 { display: inline-block; width: 4em; }
+      .indent-5 { display: inline-block; width: 5em; }
+    }
+  }
+
+  body {
+    &.navPanel-visible {
+      #page-wrapper {
+        @include vendor('transform', 'translateX(#{_size(navPanel)})');
+      }
+
+      #navButton {
+        @include vendor('transform', 'translateX(#{_size(navPanel)})');
+      }
+
+      #navPanel {
+        @include vendor('transform', 'translateX(0)');
+      }
+    }
+  }
+}
+
 /* Landing Page */
 #header, #header h1, #header a, #footer {
   //color: rgba(255, 255, 255, 0.5); // Default - good for darker backgrounds
