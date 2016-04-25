@@ -39,6 +39,10 @@ $screen-sm-max:              ($screen-md-min - 1) !default;
 $screen-md-max:              ($screen-lg-min - 1) !default;
 $screen-lg-max:              ($screen-xl-min - 1) !default;
 
+// Short Desktop screens
+$screen-short:               700px !default;
+$screen-short-min:           $screen-short;
+
 /*********************************************************************************/
 /* Mixins                                                                        */
 /*********************************************************************************/
@@ -98,19 +102,13 @@ $screen-lg-max:              ($screen-xl-min - 1) !default;
   display: none;
 }
 
-@media only screen and (max-width: $screen-md-max)  {
+@media only screen and (max-width: $screen-sm-max), screen and (min-width: $screen-md-min) and (max-height: $screen-short) {
   
   #nav {
     display: none;
   }
 
   /* Off-Canvas Navigation */
-
-  #page-wrapper {
-    @include vendor('backface-visibility', 'hidden');
-    @include vendor('transition', 'transform #{_duration(navPanel)} ease');
-    padding-bottom: 1px;
-  }
 
   #navButton {
     @include vendor('backface-visibility', 'hidden');
@@ -265,6 +263,13 @@ $screen-lg-max:              ($screen-xl-min - 1) !default;
   }
 }
 
+// Short screens
+@media only screen and (min-width: $screen-md-min) and (max-height: $screen-short) {
+  .icons, .credits {
+    display: none;
+  }
+}
+
 // Scroll indicator
 .scroll-indicator {
   display: none;
@@ -303,7 +308,7 @@ $wide-layout-margin: 20%;
     width: calc(100% - #{$wide-layout-margin}) !important;
   }
 
-  .copyright-narrow {
+  .copyright-narrow, .credits-narrow {
     li {
       border-left: none !important;
     }

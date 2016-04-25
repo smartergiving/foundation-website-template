@@ -940,7 +940,7 @@ input[type="button"],
     }
   }
 
-  .copyright {
+  .copyright, .credits {
     color: _palette(accent2, fg-light);
     font-size: 0.8em;
     list-style: none;
@@ -1202,7 +1202,7 @@ body.is-touch {
       padding: 0 $size-header-pad ($size-header-pad + _size(element-margin)) $size-header-pad;
       width: $size-header-width;
 
-      .copyright {
+      .copyright, .credits {
         li {
           border-left-width: 0;
           display: block;
@@ -1292,7 +1292,7 @@ body.is-touch {
         margin: 0 0 (_size(element-margin) * 0.5) 0;
       }
 
-      .copyright {
+      .copyright, .credits {
         margin: 0 0 (_size(element-margin) * 0.5) 0;
 
         li {
@@ -1468,7 +1468,7 @@ body.is-touch {
   /* Footer */
 
     #footer {
-      .copyright {
+      .copyright, .credits {
         li {
           border-left-width: 0;
           display: block;
