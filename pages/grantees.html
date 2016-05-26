@@ -12,8 +12,8 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
     <p>{{ page.intro_text }}</p>
   {% endif %}
   <ul class="actions actions-grants-nav">
-    {% assign all_grants = site.data.grants %}
-    {% for each in all_grants %}
+    {% assign all_grants = site.data.grants | sort %}
+    {% for each in all_grants reversed %}
       <li><a href="#{{each[0]}}" class="button small button-fit scrolly">{{each[0]}}</a></li>
     {% endfor %}
   </ul>
@@ -21,7 +21,7 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
 
 <section id="grant-wrapper">
   <!-- Grants -->
-  {% for year in all_grants %}
+  {% for year in all_grants reversed %}
     <section id="{{ year[0] | slugify }}">
       <h3>{{ year[0] }}</h3>
       <table border="0px">
