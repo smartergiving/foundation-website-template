@@ -344,6 +344,9 @@ $wide-layout-margin: 20%;
 }
 
 /* Grantees */
+.actions-grants-nav li {
+  padding-bottom: 1em !important;
+}
 a.grantee-thumb {
   border: none;
 }

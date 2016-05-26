@@ -1,7 +1,58 @@
 ---
 layout: default
 permalink: /:basename/
-group_by_field: grant_year
-data_file_name: 2015
+intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliquam turpis. Risus mauris numquam vestibulum egestas sodales, eget faucibus mollis sapien, metus eu id risus ultricies, a dolor quam.
 ---
-{% include grants.html %}
+<!-- Intro -->
+<section id="grant-intro">
+  <header class="major">
+    <h2>Grantees</h2>
+  </header>
+  {% if page.intro_text %}
+    <p>{{ page.intro_text }}</p>
+  {% endif %}
+  <ul class="actions actions-grants-nav">
+    {% assign all_grants = site.data.grants %}
+    {% for each in all_grants reversed %}
+      <li><a href="#{{each[0]}}" class="button small button-fit scrolly">{{each[0]}}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="grant-wrapper">
+  <!-- Grants -->
+  {% for year in all_grants reversed %}
+    <section id="{{ year[0] | slugify }}">
+      <h3>{{ year[0] }}</h3>
+      <table border="0px">
+        <!-- List.js Docs: http://www.listjs.com/examples/table -->
+        <tbody class="list">
+
+          {% for grant in year[1] %}
+          {% capture total_grant_count %}{{ forloop.length }}{% endcapture %}
+            <tr>
+              <td class="db-grantee-name">
+                {% if grant.grantee_url %}
+                  <a target="_blank" href="{{ grant.grantee_url }}">{{ grant.grantee_name }}</a>
+                {% else %}
+                  {{ grant.grantee_name}}
+                {% endif %}
+              </td>
+              <td class="db-grantee-location">{{ grant.grantee_location }}</td>
+              <td class="db-grant-amount" data-grant-group-name="{{ each.name }}" data-grant-amount="{{ grant.grant_amount }}">{{ grant.grant_amount }}</td>
+              <td class="db-grant-purpose">{{ grant.grant_purpose }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>{{ total_grant_count }} Grants</td>
+            <td></td>
+            <td data-grant-group-total="{{ each.name }}"></td>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  {% endfor %}
+</section>

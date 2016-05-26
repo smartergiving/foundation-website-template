@@ -37,9 +37,21 @@ For those familiar with Jekyll and Github Pages, the template is fully compatibl
 
 1. **Config File**: Enter your foundation's information in the appropriate fields in `_config.yml`. Do not remove any fields, simply leave them blank if not needed (e.g. twitter profile).
 
-2. **Navigation**: If you need to change the left handed navigation links, you'll need to adjust the HTML found in `_includes/nav.html`. Create new pages in the `pages/` directory to match any new links you create. Be sure to use lowercase and hyphens in the names if needed (e.g. use `our-story.md`).
+2. **Navigation**: If you need to change the left handed navigation links, you'll need to adjust the HTML found in `_includes/nav.html`. Create new pages in the `pages/` directory to match any new links you create. Be sure to use lowercase and hyphens in the filenames if needed (e.g. use `our-story.md`).
 
 3. **Featured Projects**: The featured project cards are found in the `_featured-cards/` directory. Images are found in `assets/images/featured-cards/`.
+
+4. **Grants Database**: See full instructions below.
+
+## Grants Database  
+
+The template contains a built-in grants database inspired by those found on large foundation websites. Just upload your annual lists of grants and the template will handle the rest.
+
+1. **Upload Location**: `_data/grants/`
+
+2. **Format**: CSV format using [this template](https://github.com/smartergiving/foundation-website-template/blob/master/_data/templates/csv_template_for_grants_database.csv).
+
+3. **File Naming**: Each file must represent a single year and be named for that year (e.g. `2016.csv`).
 
 ## License & Credits  
 
@@ -49,6 +61,9 @@ Design
   - Strata template by [HTML5 UP](https://html5up.net)
   - Author [@n33co](https://twitter.com/n33co)
   - Free for personal and commercial use under the [CCA 3.0 license](http://html5up.net/license)
+  
+Grants Database & Jekyll Template  
+  - [SmarterGiving](https://smartergiving.org/)
 
 Assets  
   - Demo Images: [Unsplash](http://unsplash.com)  
@@ -64,7 +79,7 @@ Other
 
 #### License
 
-&copy; SmarterGiving under the MIT License (MIT):
+&copy; [SmarterGiving](https://smartergiving.org/) under the MIT License (MIT):
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
