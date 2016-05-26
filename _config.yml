@@ -20,8 +20,8 @@ description: > # this means to start on the next line (which needs to be indente
 live: false # enter 'true' when you're ready for the site to be indexed by Google and other web crawlers
 
 # Jekyll settings
-baseurl: "/foundation-website-template" # Leave this blank unless your site is located on a subpath, e.g. /blog
-url: "https://smartergiving.org" # Typically http://www.yourdomain.org
+baseurl: /foundation-website-template # Leave this blank unless your site is located on a subpath, e.g. /blog
+url: https://smartergiving.org # Typically http://www.yourdomain.org
 collections:
   featured-cards:
     output: true
