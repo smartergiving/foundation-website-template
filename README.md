@@ -39,7 +39,7 @@ For those familiar with Jekyll and Github Pages, the template is fully compatibl
 
 2. **Navigation**: If you need to change the left handed navigation links, you'll need to adjust the HTML found in `_includes/nav.html`. Create new pages in the `pages/` directory to match any new links you create. Be sure to use lowercase and hyphens in the filenames if needed (e.g. use `our-story.md`).
 
-3. **Featured Projects**: The featured project cards are found in the `_featured-cards/` directory. Images are found in `assets/images/featured-cards/`.
+3. **Featured Projects**: The featured project cards are found in the `_featured-cards/` directory. Images are found in `assets/images/featured-cards/`. To change an image, simply replace the existing files (e.g. upload a new `card3.jpg` for the lower left image, but do not change the filename from `card3.jpg`).
 
 4. **Grants Database**: See full instructions below.
 
