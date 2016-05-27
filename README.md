@@ -6,7 +6,7 @@ If you have a site that was built over three years ago you're in the right place
 
 #### Screenshots  
 
-![Screenshot](https://raw.githubusercontent.com/smartergiving/foundation-website-template/master/assets/images/readme-screenshots/responsive.png "Screenshot")  
+![Screenshot](https://raw.githubusercontent.com/smartergiving/foundation-website-template/gh-pages/assets/images/readme-screenshots/responsive.png "Screenshot")  
 
 The project has two primary goals:
 
@@ -51,7 +51,7 @@ The template contains a built-in grants database inspired by those found on larg
 
 1. **Upload Location**: `_data/grants/`
 
-2. **Format**: CSV format using [this template](https://github.com/smartergiving/foundation-website-template/blob/master/_data/templates/csv_template_for_grants_database.csv).
+2. **Format**: CSV format using [this template](https://github.com/smartergiving/foundation-website-template/blob/gh-pages/_data/templates/csv_template_for_grants_database.csv).
 
 3. **File Naming**: Each file must represent a single year and be named for that year (e.g. `2016.csv`).
 
