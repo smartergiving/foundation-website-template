@@ -42,10 +42,10 @@
                 <h3 class="icon fa-fax"><span class="label">Fax</span></h3>
                 503.274.6256 (fax)
               </li>
-              {% if site.email_public %}
+              {% if page.email %}
               <li>
                 <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-                <a href="mailto:{{site.email_public}}">{{site.email_public}}</a>
+                <a href="mailto:{{ page.email }}">{{ page.email }}</a>
               </li>
               {% endif %}
               {% if site.grant_application_login %}
