@@ -31,6 +31,18 @@ We want to make it as simple as possible to share whatever grantmaking informati
 
 We're actively working on integrating historically popular grant specs like Foundation Center's [hGrant](http://foundationcenter.org/grantmakers/hgrant.html) while pushing those standards to incorporate the realities of the modern funder.  
 
+## Getting Started  
+
+1. **Create a new repo**: Create a new repo within your [Github organization](https://github.com/nonprofit) account by clicking on the green "New Repository" button. This will be found on your main profile page, e.g. `https://github.com/your-org-name`.  
+
+2. **Name the repo**: On the second screen, choose a simple name for the repo. For example, if the foundation name is The Smith Family Charitable Trust, just name the repo `smith`.  
+
+3. **Select settings**: Choose public or private. If you're unfamiliar with any of the settings we recommend leaving them as is.  
+
+4. **Import the main template**: On the next screen, scroll to the bottom of the page and locate the gray "Import code" button. Enter `https://github.com/smartergiving/foundation-website-template.git` into the box and click the green "Begin import" button.  
+
+5. **View the site**: Your new site is now live at `https://your-org-name.github.io/repo-name`, where `repo-name` is the repo name you chose in Step 2.
+
 ## Usage  
 
 For those familiar with Jekyll and Github Pages, the template is fully compatible with the `github-pages` gem (i.e. does not use any plugins).  
