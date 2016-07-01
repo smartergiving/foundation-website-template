@@ -1,0 +1,57 @@
+<!-- Capture tax year -->
+{% if year[1].Return.ReturnHeader.TaxYr %}
+  {% assign irs_tax_year = year[1].Return.ReturnHeader.TaxYr %} <!-- 2013 and newer -->
+{% else %}
+  {% assign irs_tax_year = year[1].Return.ReturnHeader.TaxYear %} <!-- 2012 and older -->
+{% endif %}
+
+<!--TODO: DRY it up-->
+{% if irs_tax_year == "2014" %}
+
+  {% for grant in year[1].Return.ReturnData.IRS990PF.SupplementaryInformationGrp.GrantOrContributionPdDurYrGrp %}
+    <tr>
+      <td class="db-grantee-name">{{ grant.RecipientBusinessName.BusinessNameLine1Txt }}</td>
+      <td class="db-grantee-location">{{ grant.RecipientUSAddress.CityNm | capitalize }}, {{ grant.RecipientUSAddress.StateAbbreviationCd }}</td>
+      <td class="db-grant-amount" data-grant-group-name="{{ year[0] }}" data-grant-amount="{{ grant.Amt }}">{{ grant.Amt }}</td>
+      <td class="db-grant-purpose">{{ grant.GrantOrContributionPurposeTxt | capitalize }}</td>
+    </tr>
+    {% capture total_grant_count %}{{ forloop.length }}{% endcapture %}
+  {% endfor %}
+
+{% elsif irs_tax_year == "2013" %}
+
+  {% for grant in year[1].Return.ReturnData.IRS990PF.SupplementaryInformationGrp.GrantOrContributionPdDurYrGrp %}
+    <tr>
+      <td class="db-grantee-name">{{ grant.RecipientBusinessName.BusinessNameLine1 }}</td>
+      <td class="db-grantee-location">{{ grant.RecipientUSAddress.City | capitalize }}, {{ grant.RecipientUSAddress.State }}</td>
+      <td class="db-grant-amount" data-grant-group-name="{{ year[0] }}" data-grant-amount="{{ grant.Amt }}">{{ grant.Amt }}</td>
+      <td class="db-grant-purpose">{{ grant.GrantOrContributionPurposeTxt | capitalize }}</td>
+    </tr>
+    {% capture total_grant_count %}{{ forloop.length }}{% endcapture %}
+  {% endfor %}
+
+{% elsif irs_tax_year == "2012" %}
+
+  {% for grant in year[1].Return.ReturnData.IRS990PF.SupplementaryInformation.GrantOrContriPaidDuringYear %}
+    <tr>
+      <td class="db-grantee-name">{{ grant.RecipientBusinessName.BusinessNameLine1 }}</td>
+      <td class="db-grantee-location">{{ grant.RecipientUSAddress.City | capitalize }}, {{ grant.RecipientUSAddress.State }}</td>
+      <td class="db-grant-amount" data-grant-group-name="{{ year[0] }}" data-grant-amount="{{ grant.Amount }}">{{ grant.Amount }}</td>
+      <td class="db-grant-purpose">{{ grant.PurposeOfGrantOrContribution | capitalize }}</td>
+    </tr>
+    {% capture total_grant_count %}{{ forloop.length }}{% endcapture %}
+  {% endfor %}
+
+{% elsif irs_tax_year == "2011" %}
+
+  {% for grant in year[1].Return.ReturnData.IRS990PF.SupplementaryInformation.GrantOrContriPaidDuringYear %}
+    <tr>
+      <td class="db-grantee-name">{{ grant.RecipientBusinessName.BusinessNameLine1 }}      </td>
+      <td class="db-grantee-location">{{ grant.RecipientUSAddress.City | capitalize }}, {{ grant.RecipientUSAddress.State }}</td>
+      <td class="db-grant-amount" data-grant-group-name="{{ year[0] }}" data-grant-amount="{{ grant.Amount }}">{{ grant.Amount }}</td>
+      <td class="db-grant-purpose">{{ grant.PurposeOfGrantOrContribution | capitalize }}</td>
+    </tr>
+    {% capture total_grant_count %}{{ forloop.length }}{% endcapture %}
+  {% endfor %}
+
+{% endif %}

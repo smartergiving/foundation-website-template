@@ -351,6 +351,10 @@ a.grantee-thumb {
   border: none;
 }
 
+.db-grantee-location {
+  text-transform: capitalize;
+}
+
 .thumb-fit {
   //object-fit: cover;
   max-width: 150px;

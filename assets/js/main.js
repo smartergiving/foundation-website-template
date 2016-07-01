@@ -158,7 +158,7 @@
 
     // Format numbers
       // Docs: https://github.com/customd/jquery-number
-      $('[data-grant-amount]')
+      $('[data-grant-amount], [data-grant-group-total')
         .number( true )
         .prepend( '$' );
 
@@ -178,7 +178,7 @@
           } else {
               array[group] = amount;
           }
-          //console.log(array);
+
       });
 
       //Loop through array

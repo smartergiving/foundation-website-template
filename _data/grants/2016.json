@@ -1,0 +1,1314 @@
+{
+  "Return": {
+    "ReturnHeader": {
+      "ReturnTs": "2015-08-07T17:43:24-05:00",
+      "TaxPeriodEndDt": "2014-12-31",
+      "PreparerFirmGrp": {
+        "PreparerFirmEIN": "930900579",
+        "PreparerFirmName": {
+          "BusinessNameLine1Txt": "MCDONALD JACOBS PC"
+        },
+        "PreparerUSAddress": {
+          "AddressLine1Txt": "520 SW YAMHILL ST STE 500",
+          "CityNm": "PORTLAND",
+          "StateAbbreviationCd": "OR",
+          "ZIPCd": "97204"
+        }
+      },
+      "ReturnTypeCd": "990PF",
+      "TaxPeriodBeginDt": "2014-01-01",
+      "Filer": {
+        "EIN": "936021333",
+        "BusinessName": {
+          "BusinessNameLine1Txt": "THE AUTZEN FOUNDATION"
+        },
+        "BusinessNameControlTxt": "AUTZ",
+        "PhoneNum": "5032266051",
+        "USAddress": {
+          "AddressLine1Txt": "P O BOX 3709",
+          "CityNm": "PORTLAND",
+          "StateAbbreviationCd": "OR",
+          "ZIPCd": "97208"
+        }
+      },
+      "BusinessOfficerGrp": {
+        "PersonNm": "WENDY ULMAN",
+        "PersonTitleTxt": "PRESIDENT",
+        "PhoneNum": "5032266051",
+        "SignatureDt": "2015-07-28",
+        "DiscussWithPaidPreparerInd": "1"
+      },
+      "PreparerPersonGrp": {
+        "PreparerPersonNm": "SANG AHN",
+        "PTIN": "P00540880",
+        "PhoneNum": "5032270581"
+      },
+      "TaxYr": "2014",
+      "BuildTS": "2016-02-25 16:41:14Z",
+      "_binaryAttachmentCnt": "0"
+    },
+    "ReturnData": {
+      "IRS990PF": {
+        "Organization501c3ExemptPFInd": "X",
+        "FMVAssetsEOYAmt": "27983565",
+        "MethodOfAccountingCashInd": "X",
+        "AnalysisOfRevenueAndExpenses": {
+          "ScheduleBNotRequiredInd": "X",
+          "DividendsRevAndExpnssAmt": "627554",
+          "DividendsNetInvstIncmAmt": "627554",
+          "NetGainSaleAstRevAndExpnssAmt": "489491",
+          "GrossSalesPriceAmt": "546746",
+          "CapGainNetIncmNetInvstIncmAmt": "489491",
+          "TotalRevAndExpnssAmt": "1117045",
+          "TotalNetInvstIncmAmt": "1117045",
+          "CompOfcrDirTrstRevAndExpnssAmt": "2975",
+          "CompOfcrDirTrstNetInvstIncmAmt": "298",
+          "CompOfcrDirTrstDsbrsChrtblAmt": "2677",
+          "OthEmplSlrsWgsRevAndExpnssAmt": "39000",
+          "OthEmplSlrsWgsNetInvstIncmAmt": "12987",
+          "OthEmplSlrsWgsDsbrsChrtblAmt": "26013",
+          "PensionEmplBnftRevAndExpnssAmt": "3764",
+          "PensionEmplBnftNetInvstIncmAmt": "1678",
+          "PensionEmplBnftDsbrsChrtblAmt": "2086",
+          "LegalFeesRevAndExpnssAmt": {
+            "_referenceDocumentId": "RetDoc2002100001",
+            "__text": "2308"
+          },
+          "LegalFeesNetInvstIncmAmt": "1154",
+          "LegalFeesDsbrsChrtblAmt": "1154",
+          "AccountingFeesRevAndExpnssAmt": {
+            "_referenceDocumentId": "RetDoc2002200001",
+            "__text": "14847"
+          },
+          "AccountingFeesNetInvstIncmAmt": "7423",
+          "AccountingFeesChrtblPrpsAmt": "7424",
+          "OtherProfFeesRevAndExpnssAmt": {
+            "_referenceDocumentId": "RetDoc2002300001",
+            "__text": "1245"
+          },
+          "OtherProfFeesNetInvstIncmAmt": "414",
+          "OtherProfFeesDsbrsChrtblAmt": "831",
+          "TaxesRevAndExpnssAmt": {
+            "_referenceDocumentId": "RetDoc2002500001",
+            "__text": "14630"
+          },
+          "TaxesNetInvstIncmAmt": "2762",
+          "TaxesDsbrsChrtblAmt": "1122",
+          "OccupancyRevAndExpnssAmt": "20412",
+          "OccupancyNetInvstIncmAmt": "10206",
+          "OccupancyDsbrsChrtblAmt": "10206",
+          "TravConfMeetingRevAndExpnssAmt": "94",
+          "TravConfMeetingNetInvstIncmAmt": "47",
+          "TravConfMeetingDsbrsChrtblAmt": "47",
+          "OtherExpensesRevAndExpnssAmt": {
+            "_referenceDocumentId": "RetDoc2003200001",
+            "__text": "12638"
+          },
+          "OtherExpensesNetInvstIncmAmt": "6174",
+          "OtherExpensesDsbrsChrtblAmt": "6464",
+          "TotOprExpensesRevAndExpnssAmt": "111913",
+          "TotOprExpensesNetInvstIncmAmt": "43143",
+          "TotOprExpensesDsbrsChrtblAmt": "58024",
+          "ContriPaidRevAndExpnssAmt": "1286112",
+          "ContriPaidDsbrsChrtblAmt": "1286112",
+          "TotalExpensesRevAndExpnssAmt": "1398025",
+          "TotalExpensesNetInvstIncmAmt": "43143",
+          "TotalExpensesDsbrsChrtblAmt": "1344136",
+          "ExcessRevenueOverExpensesAmt": "-280980",
+          "NetInvestmentIncomeAmt": "1073902"
+        },
+        "Form990PFBalanceSheetsGrp": {
+          "CashBOYAmt": "111523",
+          "CashEOYAmt": "4612",
+          "CashEOYFMVAmt": "4612",
+          "SavAndTempCashInvstBOYAmt": "283155",
+          "SavAndTempCashInvstEOYAmt": "121539",
+          "SavAndTempCashInvstEOYFMVAmt": "121539",
+          "PrepaidExpensesBOYAmt": "20972",
+          "PrepaidExpensesEOYAmt": "10226",
+          "PrepaidExpensesEOYFMVAmt": "10226",
+          "USGovernmentObligationsBOYAmt": "1923932",
+          "USGovernmentObligationsEOYAmt": {
+            "_referenceDocumentId": "RetDoc2210400001",
+            "__text": "1805355"
+          },
+          "USGovtObligationsEOYFMVAmt": "2403886",
+          "CorporateStockBOYAmt": "6776622",
+          "CorporateStockEOYAmt": {
+            "_referenceDocumentId": "RetDoc2018900001",
+            "__text": "6904030"
+          },
+          "CorporateStockEOYFMVAmt": "25311169",
+          "CorporateBondsBOYAmt": "107040",
+          "CorporateBondsEOYAmt": {
+            "_referenceDocumentId": "RetDoc2044400001",
+            "__text": "99002"
+          },
+          "CorporateBondsEOYFMVAmt": "132133",
+          "TotalAssetsBOYAmt": "9223244",
+          "TotalAssetsEOYAmt": "8944764",
+          "TotalAssetsEOYFMVAmt": "27983565",
+          "TotalLiabilitiesBOYAmt": "0",
+          "TotalLiabilitiesEOYAmt": "0",
+          "OrganizationFollowsSFAS117Ind": "X",
+          "UnrestrictedBOYAmt": "9223244",
+          "UnrestrictedEOYAmt": "8944764",
+          "TotNetAstOrFundBalancesBOYAmt": "9223244",
+          "TotNetAstOrFundBalancesEOYAmt": "8944764",
+          "TotalLiabilitiesNetAstBOYAmt": "9223244",
+          "TotalLiabilitiesNetAstEOYAmt": "8944764"
+        },
+        "ChgInNetAssetsFundBalancesGrp": {
+          "TotNetAstOrFundBalancesBOYAmt": "9223244",
+          "ExcessRevenueOverExpensesAmt": "-280980",
+          "OtherIncreasesAmt": {
+            "_referenceDocumentId": "RetDoc2049700001",
+            "__text": "2500"
+          },
+          "SubtotalAmt": "8944764",
+          "OtherDecreasesAmt": "0",
+          "TotNetAstOrFundBalancesEOYAmt": "8944764"
+        },
+        "CapGainsLossTxInvstIncmDetail": {
+          "CapGainsLossTxInvstIncmGrp": [
+            {
+              "PropertyDesc": "PUBLICLY TRADED SECURITIES",
+              "AcquiredDt": "2005-11-18",
+              "SoldDt": "2014-01-27",
+              "GrossSalesPriceAmt": "52513",
+              "CostOrOtherBasisAmt": "34925",
+              "GainOrLossAmt": "17588",
+              "GainsMinusExcessOrLossesAmt": "17588"
+            },
+            {
+              "PropertyDesc": "PUBLICLY TRADED SECURITIES",
+              "AcquiredDt": "2004-11-23",
+              "SoldDt": "2014-11-20",
+              "GrossSalesPriceAmt": "1583",
+              "CostOrOtherBasisAmt": "838",
+              "GainOrLossAmt": "745",
+              "GainsMinusExcessOrLossesAmt": "745"
+            },
+            {
+              "PropertyDesc": "PUBLICLY TRADED SECURITIES",
+              "AcquiredDt": "2002-12-31",
+              "SoldDt": "2014-05-01",
+              "GrossSalesPriceAmt": "492650",
+              "CostOrOtherBasisAmt": "21492",
+              "GainOrLossAmt": "471158",
+              "GainsMinusExcessOrLossesAmt": "471158"
+            }
+          ],
+          "CapitalGainNetIncomeAmt": "489491"
+        },
+        "QlfyUndSect4940eReducedTaxGrp": {
+          "LiableSection4942TaxInd": "0",
+          "AdjustedQlfyDistriYr1Amt": "1228975",
+          "NetVlNoncharitableAssetsYr1Amt": "24360506",
+          "DistributionYr1Rt": "0.050449",
+          "AdjustedQlfyDistriYr2Amt": "1037868",
+          "NetVlNoncharitableAssetsYr2Amt": "21745814",
+          "DistributionYr2Rt": "0.047727",
+          "AdjustedQlfyDistriYr3Amt": "1015473",
+          "NetVlNoncharitableAssetsYr3Amt": "20621921",
+          "DistributionYr3Rt": "0.049242",
+          "AdjustedQlfyDistriYr4Amt": "838298",
+          "NetVlNoncharitableAssetsYr4Amt": "18448914",
+          "DistributionYr4Rt": "0.045439",
+          "AdjustedQlfyDistriYr5Amt": "851442",
+          "NetVlNoncharitableAssetsYr5Amt": "16188403",
+          "DistributionYr5Rt": "0.052596",
+          "TotalDistributionRt": "0.245453",
+          "AverageDistributionRt": "0.049091",
+          "NetVlNoncharitableAssetsAmt": "26921712",
+          "AdjNetVlNoncharitableAssetsAmt": "1321614",
+          "NetInvestmentIncomePctAmt": "10739",
+          "AdjNonchrtblNetInvstIncmPctAmt": "1332353",
+          "QualifyingDistributionsAmt": "1344136"
+        },
+        "ExciseTaxBasedOnInvstIncmGrp": {
+          "DomesticOrgMeetingSect4940eInd": "X",
+          "InvestmentIncomeExciseTaxAmt": "10739",
+          "TaxUnderSection511Amt": "0",
+          "SubtotalAmt": "10739",
+          "SubtitleATaxAmt": "0",
+          "TaxBasedOnInvestmentIncomeAmt": "10739",
+          "EstimatedPlusOvpmtIncmTxAmt": "20976",
+          "TotalPaymentsAndCreditsAmt": "20976",
+          "Form2220AttachedInd": {
+            "_referenceDocumentId": "RetDoc1192000001",
+            "__text": "X"
+          },
+          "OverpaymentAmt": "10237",
+          "AppliedToESTaxAmt": "10237",
+          "RefundAmt": "0"
+        },
+        "StatementsRegardingActyGrp": {
+          "LegislativePoliticalActyInd": "0",
+          "MoreThan100SpentInd": "0",
+          "Form1120POLFiledInd": "0",
+          "Section4955OrganizationTaxAmt": "0",
+          "Section4955ManagersTaxAmt": "0",
+          "TaxReimbursedAmt": "0",
+          "ActivitiesNotPreviouslyRptInd": "0",
+          "ChangesToArticlesOrBylawsInd": "0",
+          "UnrelatedBusIncmOverLimitInd": "0",
+          "OrganizationDissolvedEtcInd": "0",
+          "Section508eRqrSatisfiedInd": "1",
+          "AtLeast5000InAssetsInd": "1",
+          "OrgReportOrRegisterStateCd": "OR",
+          "Form990PFFiledWithAttyGenInd": "1",
+          "PrivateOperatingFoundationInd": "0",
+          "NewSubstantialContributorsInd": "0",
+          "OwnControlledEntityInd": "0",
+          "DonorAdvisedFundInd": "0",
+          "ComplyWithPublicInspRqrInd": "1",
+          "WebsiteAddressTxt": "N/A",
+          "IndividualWithBooksNm": "WENDY ULMAN",
+          "PhoneNum": "5032266051",
+          "LocationOfBooksUSAddress": {
+            "AddressLine1Txt": "2455 NW MARSHALL SUITE 9",
+            "CityNm": "PORTLAND",
+            "StateAbbreviationCd": "OR",
+            "ZIPCd": "97210"
+          },
+          "ForeignAccountsQuestionInd": "0"
+        },
+        "StatementsRegardingActy4720Grp": {
+          "SaleOrExchDisqualifiedPrsnInd": "0",
+          "BrrwOrLendDisqualifiedPrsnInd": "0",
+          "FurnGoodsDisqualifiedPrsnInd": "0",
+          "PayCompDisqualifiedPrsnInd": "1",
+          "TransferAstDisqualifiedPrsnInd": "0",
+          "PaymentToGovernmentOfficialInd": "0",
+          "ActsFailToQlfyAsExceptionsInd": "0",
+          "UncorrectedPriorActsInd": "0",
+          "UndistributedIncomePYInd": "0",
+          "BusinessHoldingsInd": "0",
+          "JeopardyInvestmentsInd": "0",
+          "UncorrectedPYJeopardyInvstInd": "0",
+          "InfluenceLegislationInd": "0",
+          "InfluenceElectionInd": "0",
+          "GrantsToIndividualsInd": "0",
+          "GrantsToOrganizationsInd": "0",
+          "NoncharitablePurposeInd": "0",
+          "RcvFndsToPayPrsnlBnftCntrctInd": "0",
+          "PayPremiumsPrsnlBnftCntrctInd": "0",
+          "ProhibitedTaxShelterTransInd": "0"
+        },
+        "OfficerDirTrstKeyEmplInfoGrp": {
+          "OfficerDirTrstKeyEmplGrp": [
+            {
+              "PersonNm": "WENDY ULMAN",
+              "USAddress": {
+                "AddressLine1Txt": "2455 NW MARSHALL SUITE 9",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97210"
+              },
+              "TitleTxt": "PRESIDENT",
+              "AverageHrsPerWkDevotedToPosRt": "0.25",
+              "CompensationAmt": "595",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "CHRISTINA A GRADY",
+              "USAddress": {
+                "AddressLine1Txt": "2455 NW MARSHALL SUITE 9",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97210"
+              },
+              "TitleTxt": "TREASURER",
+              "AverageHrsPerWkDevotedToPosRt": "0.25",
+              "CompensationAmt": "595",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "ROBERT W PATTON III",
+              "USAddress": {
+                "AddressLine1Txt": "2455 NW MARSHALL SUITE 9",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97210"
+              },
+              "TitleTxt": "DIRECTOR",
+              "AverageHrsPerWkDevotedToPosRt": "0.25",
+              "CompensationAmt": "595",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "THOMAS J AUTZEN",
+              "USAddress": {
+                "AddressLine1Txt": "2455 NW MARSHALL SUITE 9",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97210"
+              },
+              "TitleTxt": "DIRECTOR",
+              "AverageHrsPerWkDevotedToPosRt": "0.25",
+              "CompensationAmt": "595",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "PHILLIP PATTON",
+              "USAddress": {
+                "AddressLine1Txt": "2455 NW MARSHALL SUITE 9",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97210"
+              },
+              "TitleTxt": "DIRECTOR",
+              "AverageHrsPerWkDevotedToPosRt": "0.25",
+              "CompensationAmt": "595",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            }
+          ],
+          "CompOfHghstPdEmplOrNONETxt": "NONE",
+          "OtherEmployeePaidOver50kCnt": "0",
+          "CompOfHghstPdCntrctOrNONETxt": "NONE",
+          "ContractorPaidOver50kCnt": "0"
+        },
+        "SumOfProgramRelatedInvstGrp": {
+          "TotalAmt": "0"
+        },
+        "MinimumInvestmentReturnGrp": {
+          "AverageMonthlyFMVOfSecAmt": "26705246",
+          "AverageMonthlyCashBalancesAmt": "626441",
+          "FMVAllOtherNoncharitableAstAmt": "0",
+          "TotalFMVOfUnusedAssetsAmt": "27331687",
+          "ReductionClaimedAmt": "0",
+          "AcquisitionIndebtednessAmt": "0",
+          "AdjustedTotalFMVOfUnusedAstAmt": "27331687",
+          "CashDeemedCharitableAmt": "409975",
+          "NetVlNoncharitableAssetsAmt": "26921712",
+          "MinimumInvestmentReturnAmt": "1346086"
+        },
+        "DistributableAmountGrp": {
+          "MinimumInvestmentReturnAmt": "1346086",
+          "TaxBasedOnInvestmentIncomeAmt": "10739",
+          "TotalTaxAmt": "10739",
+          "DistributableBeforeAdjAmt": "1335347",
+          "RecoveriesQualfiedDistriAmt": "0",
+          "DistributableBeforeDedAmt": "1335347",
+          "DeductionFromDistributableAmt": "0",
+          "DistributableAsAdjustedAmt": "1335347"
+        },
+        "QualifyingDistriPartXIIGrp": {
+          "ExpensesAndContributionsAmt": "1344136",
+          "ProgramRelatedInvstTotalAmt": "0",
+          "QualifyingDistributionsAmt": "1344136",
+          "PctSect4940eOrgNetInvstIncmAmt": "10739",
+          "AdjustedQualifyingDistriAmt": "1333397"
+        },
+        "UndistributedIncomeGrp": {
+          "DistributableAsAdjustedAmt": "1335347",
+          "UndistributedIncomePYAmt": "0",
+          "TotalForPriorYearsAmt": "0",
+          "ExcessDistributionCyovYr5Amt": "68077",
+          "ExcessDistributionCyovYr3Amt": "6967",
+          "ExcessDistributionCyovYr1Amt": "32524",
+          "TotalExcessDistributionCyovAmt": "107568",
+          "QualifyingDistributionsAmt": "1344136",
+          "AppliedToYear1Amt": "0",
+          "AppliedToPriorYearsAmt": "0",
+          "TreatedAsDistriFromCorpusAmt": "0",
+          "AppliedToCurrentYearAmt": "1335347",
+          "RemainingDistriFromCorpusAmt": "8789",
+          "ExcessDistriCyovAppCYCorpusAmt": "0",
+          "ExcessDistributionCyovAppCYAmt": "0",
+          "TotalCorpusAmt": "116357",
+          "PriorYearUndistributedIncmAmt": "0",
+          "PriorYearDeficiencyOrTaxAmt": "0",
+          "Taxable1Amt": "0",
+          "Taxable2Amt": "0",
+          "UndistributedIncomeCYAmt": "0",
+          "CorpusDistri170b1EOr4942g3Amt": "0",
+          "ExcessDistriCyovFromYr5Amt": "68077",
+          "ExcessDistriCyovToNextYrAmt": "48280",
+          "ExcessFromYear3Amt": "6967",
+          "ExcessFromYear1Amt": "32524",
+          "ExcessFromCurrentYearAmt": "8789"
+        },
+        "SupplementaryInformationGrp": {
+          "ApplicationSubmissionInfoGrp": {
+            "RecipientPersonNm": "BRIAN RIFFEL ADMINISTRATOR",
+            "RecipientUSAddress": {
+              "AddressLine1Txt": "PO BOX 3709",
+              "CityNm": "PORTLAND",
+              "StateAbbreviationCd": "OR",
+              "ZIPCd": "97208"
+            },
+            "RecipientPhoneNum": "5032266051",
+            "FormAndInfoAndMaterialsTxt": "LETTER-INCLUDING BOARD OF DIRECTORS, ANNUAL/PROJECT BUDGET, COPY OF IRS STATUS",
+            "SubmissionDeadlinesTxt": "SPRING: 3/15 SUMMER: 8/15 WINTER: 11/15",
+            "RestrictionsOnAwardsTxt": "NO GRANTS TO INDIVIDUALS. NO SCHOLARSHIPS. MOST GRANTS MADE WITHIN THE PACIFIC NORTHWEST. EMPHASIS ON YOUTH, EDUCATION, ARTS, AND NATURE."
+          },
+          "GrantOrContributionPdDurYrGrp": [
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "ADAPTIVE RIDING INSTITUTE"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "PO BOX 280",
+                "CityNm": "SCOTT MILLS",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97375"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "3760"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "ADELANTE MUJERES"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "2036 MAIN ST SUITE A",
+                "CityNm": "FOREST GROVE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97116"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "3000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "ARTS COUNCIL OF PENDLETON"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "214 NORTH MAIN",
+                "CityNm": "PENDLETON",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97801"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "4000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "BRADLEY ANGLE"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "5432 N ALBINA AVENUE",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97217"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "7500"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "BRIDGES MIDDLE SCHOOL"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "716 NE MARINE DRIVE",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97211"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "5000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "BROADWAY ROSE THEATER"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "PO BOX 231004",
+                "CityNm": "TIGARD",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97281"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "3500"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "CALDERA"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "224 NW 13TH AVE BOX 304",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97209"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "5000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "CAMP ARRAH WANNA"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "24075 E ARRAH WANNA BLVD",
+                "CityNm": "WELCHES",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97067"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "2500"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "CANBY CENTER THE"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "681 SW 2ND AVE",
+                "CityNm": "CANBY",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97013"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "3250"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "CANDLELIGHTERS FOR CHILDREN WITH CANCER"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "PO BOX 2277",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97208"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "5000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "CARES NORTHWEST"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "2800 N VANCOUVER AVE SUITE 201",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97227"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "5500"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "PIXIE PROJECT THE"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "510 NE MLK BLVD",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97232"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "5000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "PLAYWRITE INC"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "PO BOX 13420",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97213"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "5000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "YOUNG AUDIENCES OF OR"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "1220 SW MORRISON ST STE 1000",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97205"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "3500"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "YOUNG MUSICIANS & ARTISTS INC"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "PO BOX 10713",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97296"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "3000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "ZENGER FARMS"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "11741 SE FOSTER ROAD",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97266"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "UNRESTRICTED",
+              "Amt": "5000"
+            }
+          ],
+          "TotalGrantOrContriPdDurYrAmt": "1286112",
+          "TotalGrantOrContriApprvFutAmt": "0"
+        },
+        "AnalysisIncomeProducingActyGrp": {
+          "DivAndIntFromSecPartVIIGrp": {
+            "ExclusionCd": "14",
+            "ExclusionAmt": "627554"
+          },
+          "GainSalesAstOthThanInvntryGrp": {
+            "ExclusionCd": "18",
+            "ExclusionAmt": "489491"
+          },
+          "SubtotalsIncmProducingActyGrp": {
+            "UnrelatedBusinessTaxblIncmAmt": "0",
+            "ExclusionAmt": "1117045",
+            "RelatedOrExemptFunctionIncmAmt": "0"
+          },
+          "TotalIncomeProducingActyAmt": "1117045"
+        },
+        "TrnsfrTransRlnNonchrtblEOGrp": {
+          "TrnsfrOfCashToNonchrtblEOInd": "0",
+          "TrnsfrOtherAssetNonchrtblEOInd": "0",
+          "SalesOrExchangesOfAssetsInd": "0",
+          "PurchaseOfAssetsNonchrtblEOInd": "0",
+          "RentalOfFacilitiesOthAssetsInd": "0",
+          "ReimbursementArrangementsInd": "0",
+          "LoansOrLoanGuaranteesInd": "0",
+          "PerformanceOfServicesEtcInd": "0",
+          "SharingOfFacilitiesEtcInd": "0",
+          "RelationshipsNonchrtblEOInd": "0"
+        },
+        "_documentId": "RetDoc1235000001"
+      },
+      "AccountingFeesSchedule": {
+        "AccountingFeesDetail": {
+          "CategoryTxt": "ACCOUNTING FEES",
+          "Amt": "14847",
+          "NetInvestmentIncomeAmt": "7423",
+          "DisbursementsCharitablePrpsAmt": "7424"
+        },
+        "_documentId": "RetDoc2002200001"
+      },
+      "InvestmentsCorpBondsSchedule": {
+        "InvestmentsCorporateBondsGrp": [
+          {
+            "BondNm": "COUNTRYWIDE HM, 5.25%, DUE 2034 $50000 FACE",
+            "EOYBookValueAmt": "706",
+            "EOYFMVAmt": "5315"
+          },
+          {
+            "BondNm": "GE CAPITAL CORP, 5.875%, DUE 2038 $100000 FACE",
+            "EOYBookValueAmt": "98296",
+            "EOYFMVAmt": "126818"
+          }
+        ],
+        "_documentId": "RetDoc2044400001"
+      },
+      "InvestmentsCorpStockSchedule": {
+        "InvestmentsCorporateStockGrp": [
+          {
+            "StockNm": "ABIOMED INC (ABMD) 6000 SHARES",
+            "EOYBookValueAmt": "112371",
+            "EOYFMVAmt": "228360"
+          },
+          {
+            "StockNm": "ACTAVIS PLC (ACT) 2000 SHARES",
+            "EOYBookValueAmt": "288000",
+            "EOYFMVAmt": "514820"
+          },
+          {
+            "StockNm": "ALTERA CORP (ALTR) 7000 SHARES",
+            "EOYBookValueAmt": "136129",
+            "EOYFMVAmt": "258580"
+          },
+          {
+            "StockNm": "ALTRIA GROUP INC (MO) 18000 SHARES",
+            "EOYBookValueAmt": "703",
+            "EOYFMVAmt": "886860"
+          },
+          {
+            "StockNm": "AMERICAN TOWER CORP (AMT) 3000 SHARES",
+            "EOYBookValueAmt": "125895",
+            "EOYFMVAmt": "296550"
+          },
+          {
+            "StockNm": "ANADARKO PETROLEUM CORP (APC) 2774 SHARES",
+            "EOYBookValueAmt": "4407",
+            "EOYFMVAmt": "228855"
+          },
+          {
+            "StockNm": "APPLE INC (AAPL) 3500 SHARES",
+            "EOYBookValueAmt": "80091",
+            "EOYFMVAmt": "386330"
+          },
+          {
+            "StockNm": "AT&T INC (T) 13000 SHARES",
+            "EOYBookValueAmt": "167370",
+            "EOYFMVAmt": "436670"
+          },
+          {
+            "StockNm": "BANK OF HAWAII CORP (BOH) 5000 SHARES",
+            "EOYBookValueAmt": "4622",
+            "EOYFMVAmt": "296550"
+          },
+          {
+            "StockNm": "BANK OF NEW YORK MELLON CORP (BK) 3773 SHARES",
+            "EOYBookValueAmt": "23799",
+            "EOYFMVAmt": "153071"
+          },
+          {
+            "StockNm": "BRISTOL MYERS/SQUIBB (BMY) 3500 SHARES",
+            "EOYBookValueAmt": "92793",
+            "EOYFMVAmt": "206605"
+          },
+          {
+            "StockNm": "CABELA'S INC (CAB) 2000 SHARES",
+            "EOYBookValueAmt": "73028",
+            "EOYFMVAmt": "105420"
+          },
+          {
+            "StockNm": "CENTURYLINK, INC. (CTL) 1500 SHARES",
+            "EOYBookValueAmt": "51405",
+            "EOYFMVAmt": "59370"
+          },
+          {
+            "StockNm": "CHEVRON CORP (CVX) 8000 SHARES",
+            "EOYBookValueAmt": "72511",
+            "EOYFMVAmt": "897440"
+          },
+          {
+            "StockNm": "CISCO SYSTEMS INC (CSCO) 7000 SHARES",
+            "EOYBookValueAmt": "133326",
+            "EOYFMVAmt": "194705"
+          },
+          {
+            "StockNm": "CITRIX SYSTEMS INC (CTXS) 2150 SHARES",
+            "EOYBookValueAmt": "123333",
+            "EOYFMVAmt": "137170"
+          },
+          {
+            "StockNm": "COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION (CTSH) 2000 SHARES",
+            "EOYBookValueAmt": "62559",
+            "EOYFMVAmt": "105320"
+          },
+          {
+            "StockNm": "CONSOL ENERGY INC (CNX) 3800 SHARES",
+            "EOYBookValueAmt": "130865",
+            "EOYFMVAmt": "128478"
+          },
+          {
+            "StockNm": "CUMMINS INC (CMI) 500 SHARES",
+            "EOYBookValueAmt": "37962",
+            "EOYFMVAmt": "72085"
+          },
+          {
+            "StockNm": "DAIMLER AG ORD NPV (REGD) 1200 SHARES",
+            "EOYBookValueAmt": "88822",
+            "EOYFMVAmt": "98880"
+          },
+          {
+            "StockNm": "DANAHER CORP (DHR) 4000 SHARES",
+            "EOYBookValueAmt": "117151",
+            "EOYFMVAmt": "342840"
+          },
+          {
+            "StockNm": "DATALINK CORPORATION (DTLK) 4000 SHARES",
+            "EOYBookValueAmt": "40605",
+            "EOYFMVAmt": "51600"
+          },
+          {
+            "StockNm": "DICK'S SPORTING GOODS INC (DKS) 2000 SHARES",
+            "EOYBookValueAmt": "99602",
+            "EOYFMVAmt": "99300"
+          },
+          {
+            "StockNm": "DU PONTE E I DE NEMOURS & CO (DD) 2000 SHARES",
+            "EOYBookValueAmt": "82838",
+            "EOYFMVAmt": "147880"
+          },
+          {
+            "StockNm": "E*TRADE FINANCIAL CORP (ETFC) 2000 SHARES",
+            "EOYBookValueAmt": "44815",
+            "EOYFMVAmt": "48510"
+          },
+          {
+            "StockNm": "EASTMAN CHEMICAL CO. (EMN) 1000 SHARES",
+            "EOYBookValueAmt": "75047",
+            "EOYFMVAmt": "75860"
+          },
+          {
+            "StockNm": "EATON CORP (ETN) 4075 SHARES",
+            "EOYBookValueAmt": "211515",
+            "EOYFMVAmt": "276937"
+          },
+          {
+            "StockNm": "EBAY INC (EBAY) 2000 SHARES",
+            "EOYBookValueAmt": "81558",
+            "EOYFMVAmt": "112240"
+          },
+          {
+            "StockNm": "EDISON INTERNATIONAL (EIX) 3000 SHARES",
+            "EOYBookValueAmt": "54899",
+            "EOYFMVAmt": "196440"
+          },
+          {
+            "StockNm": "EPIQ SYSTEMS INC (EPIQ) 5000 SHARES",
+            "EOYBookValueAmt": "61948",
+            "EOYFMVAmt": "85400"
+          },
+          {
+            "StockNm": "ESTERLINE TECHNOLOGIES CORP (ESL) 1000 SHARES",
+            "EOYBookValueAmt": "60558",
+            "EOYFMVAmt": "109680"
+          },
+          {
+            "StockNm": "EXPRESS SCRIPTS INC (ESRX) 7430 SHARES",
+            "EOYBookValueAmt": "242563",
+            "EOYFMVAmt": "629098"
+          },
+          {
+            "StockNm": "EXXON MOBIL CORP (XOM) 9000 SHARES",
+            "EOYBookValueAmt": "76198",
+            "EOYFMVAmt": "832050"
+          },
+          {
+            "StockNm": "FACEBOOK INC (FB) 2000 SHARES",
+            "EOYBookValueAmt": "51700",
+            "EOYFMVAmt": "156040"
+          },
+          {
+            "StockNm": "FACTSET RESEARCH SYSTEMS INC (FDS) 1000 SHARES",
+            "EOYBookValueAmt": "71166",
+            "EOYFMVAmt": "140750"
+          },
+          {
+            "StockNm": "FISERV INC (FISV) 3000 SHARES",
+            "EOYBookValueAmt": "102539",
+            "EOYFMVAmt": "212910"
+          },
+          {
+            "StockNm": "FORTUNE BRANDS INC (FO) 5900 SHARES",
+            "EOYBookValueAmt": "5907",
+            "EOYFMVAmt": "267093"
+          },
+          {
+            "StockNm": "GENERAL MILLS INC (GIS) 8000 SHARES",
+            "EOYBookValueAmt": "51020",
+            "EOYFMVAmt": "426640"
+          },
+          {
+            "StockNm": "THE GOLDMAN SACHS GROUP INC (GS) 500 SHARES",
+            "EOYBookValueAmt": "51695",
+            "EOYFMVAmt": "96915"
+          },
+          {
+            "StockNm": "GOOGLE INC CLASS A (GOOG) 400 SHARES",
+            "EOYBookValueAmt": "99602",
+            "EOYFMVAmt": "211412"
+          },
+          {
+            "StockNm": "GRAINGER, WW INC (GWW) 1000 SHARES",
+            "EOYBookValueAmt": "108312",
+            "EOYFMVAmt": "254890"
+          },
+          {
+            "StockNm": "HERCULES TECH GROWTH CAP INC (HTGC) 5000 SHARES",
+            "EOYBookValueAmt": "54014",
+            "EOYFMVAmt": "74400"
+          },
+          {
+            "StockNm": "HESS CORPORATION (HES) 1500 SHARES",
+            "EOYBookValueAmt": "121133",
+            "EOYFMVAmt": "110730"
+          },
+          {
+            "StockNm": "HOME DEPOT INC (HD) 5000 SHARES",
+            "EOYBookValueAmt": "121852",
+            "EOYFMVAmt": "524850"
+          },
+          {
+            "StockNm": "HUBBELL INC (HUBB) 2040 SHARES",
+            "EOYBookValueAmt": "15504",
+            "EOYFMVAmt": "217933"
+          },
+          {
+            "StockNm": "IBM CORP (IBM) 1500 SHARES",
+            "EOYBookValueAmt": "35663",
+            "EOYFMVAmt": "240660"
+          },
+          {
+            "StockNm": "ISHARES TR KLD SELECT SOCIAL (KLD) 200 SHARES",
+            "EOYBookValueAmt": "10986",
+            "EOYFMVAmt": "17222"
+          },
+          {
+            "StockNm": "ISHARES TR S&P GLOBAL HEALTHCARE SECTOR (IXJ) 300 SHARES",
+            "EOYBookValueAmt": "14258",
+            "EOYFMVAmt": "29868"
+          },
+          {
+            "StockNm": "IXIA (XXIA) 3000 SHARES",
+            "EOYBookValueAmt": "36010",
+            "EOYFMVAmt": "33750"
+          },
+          {
+            "StockNm": "JM SMUCKER CO (SJM) 1647 SHARES",
+            "EOYBookValueAmt": "52128",
+            "EOYFMVAmt": "166314"
+          },
+          {
+            "StockNm": "JOHNSON & JOHNSON (JNJ) 1000 SHARES",
+            "EOYBookValueAmt": "61498",
+            "EOYFMVAmt": "104570"
+          },
+          {
+            "StockNm": "JOHNSON CONTROLS INC (JCI) 5000 SHARES",
+            "EOYBookValueAmt": "132193",
+            "EOYFMVAmt": "241700"
+          },
+          {
+            "StockNm": "JUNIPER NETWORKS INC (JNPR) 3000 SHARES",
+            "EOYBookValueAmt": "51560",
+            "EOYFMVAmt": "66960"
+          },
+          {
+            "StockNm": "LABORATORY CORP (LH) 1000 SHARES",
+            "EOYBookValueAmt": "70108",
+            "EOYFMVAmt": "107900"
+          },
+          {
+            "StockNm": "THE LACLEDE GROUP INC (LG) 2500 SHARES",
+            "EOYBookValueAmt": "105006",
+            "EOYFMVAmt": "133000"
+          },
+          {
+            "StockNm": "LOWES COMPANIES (LOW) 6000 SHARES",
+            "EOYBookValueAmt": "145550",
+            "EOYFMVAmt": "412800"
+          },
+          {
+            "StockNm": "MACQUARIE INFRASTRUCTURE CO LLC (MIC) 4000 SHARES",
+            "EOYBookValueAmt": "15840",
+            "EOYFMVAmt": "284360"
+          },
+          {
+            "StockNm": "MCDONALD'S CORP (MCD) 1000 SHARES",
+            "EOYBookValueAmt": "91435",
+            "EOYFMVAmt": "93700"
+          },
+          {
+            "StockNm": "MICHAEL KORS HOLDINGS LIMITED (KORS) 1500 SHARES",
+            "EOYBookValueAmt": "74933",
+            "EOYFMVAmt": "112650"
+          },
+          {
+            "StockNm": "3M COMPANY (MMM) 1500 SHARES",
+            "EOYBookValueAmt": "14498",
+            "EOYFMVAmt": "246480"
+          },
+          {
+            "StockNm": "MONDELEZ INTERNATIONAL INC (MDLZ) 5000 SHARES",
+            "EOYBookValueAmt": "188",
+            "EOYFMVAmt": "181625"
+          },
+          {
+            "StockNm": "MONSANTO CO (MON) 1500 SHARES",
+            "EOYBookValueAmt": "35122",
+            "EOYFMVAmt": "179205"
+          },
+          {
+            "StockNm": "NORTHWEST NATURAL GAS CO (NWN) 1000 SHARES",
+            "EOYBookValueAmt": "54444",
+            "EOYFMVAmt": "92660"
+          },
+          {
+            "StockNm": "NOVARTIS (NVS) 3000 SHARES",
+            "EOYBookValueAmt": "64895",
+            "EOYFMVAmt": "149700"
+          },
+          {
+            "StockNm": "PEPSICO INC (PEP) 3000 SHARES",
+            "EOYBookValueAmt": "12329",
+            "EOYFMVAmt": "283680"
+          },
+          {
+            "StockNm": "PFIZER INC (PFE) 20000 SHARES",
+            "EOYBookValueAmt": "54692",
+            "EOYFMVAmt": "623000"
+          },
+          {
+            "StockNm": "PHILLIP MORRIS INTERNATIONAL INC (PM) 13500 SHARES",
+            "EOYBookValueAmt": "1202",
+            "EOYFMVAmt": "1099575"
+          },
+          {
+            "StockNm": "POWERSHARES DB COMMODITY INDEX (DBC) 4000 SHARES",
+            "EOYBookValueAmt": "88454",
+            "EOYFMVAmt": "73800"
+          },
+          {
+            "StockNm": "POWERSHARES EXCHANGE TRADED - TECHNICAL LEADERS (PDP) 1500 SHARES",
+            "EOYBookValueAmt": "36038",
+            "EOYFMVAmt": "61590"
+          },
+          {
+            "StockNm": "POWERSHARES EXCHANGE TRADED - DEVELOPED MARKETS (PIZ) 1100 SHARES",
+            "EOYBookValueAmt": "19896",
+            "EOYFMVAmt": "26433"
+          },
+          {
+            "StockNm": "POWERSHARES EXCHANGE TRADED - EMERGING MARKETS (PIE) 1400 SHARES",
+            "EOYBookValueAmt": "20852",
+            "EOYFMVAmt": "24584"
+          },
+          {
+            "StockNm": "PRECISION CASTPARTS CORP (PCP) 800 SHARES",
+            "EOYBookValueAmt": "94409",
+            "EOYFMVAmt": "192704"
+          },
+          {
+            "StockNm": "PROCTER & GAMBLE CO (PG) 10763 SHARES",
+            "EOYBookValueAmt": "12775",
+            "EOYFMVAmt": "980402"
+          },
+          {
+            "StockNm": "QIHOO 360 TECHNOLOGY CO LTD (QIHU) 4500 SHARES",
+            "EOYBookValueAmt": "97719",
+            "EOYFMVAmt": "257670"
+          },
+          {
+            "StockNm": "QUALCOMM INC (QCOM) 2000 SHARES",
+            "EOYBookValueAmt": "127924",
+            "EOYFMVAmt": "148660"
+          },
+          {
+            "StockNm": "SCHNITZER STEEL INDUSTRIES (SCHN) 2000 SHARES",
+            "EOYBookValueAmt": "46090",
+            "EOYFMVAmt": "45120"
+          },
+          {
+            "StockNm": "SECTOR SPDR TRUST (XLK) 4000 SHARES",
+            "EOYBookValueAmt": "88406",
+            "EOYFMVAmt": "165400"
+          },
+          {
+            "StockNm": "SIGMA ALDRICH CORP (SIAL) 4000 SHARES",
+            "EOYBookValueAmt": "131654",
+            "EOYFMVAmt": "549080"
+          },
+          {
+            "StockNm": "ST JUDE MEDICAL INC (STJ) 3500 SHARES",
+            "EOYBookValueAmt": "119533",
+            "EOYFMVAmt": "227605"
+          },
+          {
+            "StockNm": "STURM RUGER & CO INC (ST2.SG) 1500 SHARES",
+            "EOYBookValueAmt": "87756",
+            "EOYFMVAmt": "51945"
+          },
+          {
+            "StockNm": "TARGET CORP (TGT) 2000 SHARES",
+            "EOYBookValueAmt": "84208",
+            "EOYFMVAmt": "151820"
+          },
+          {
+            "StockNm": "TELUS CORP (TU) 4000 SHARES",
+            "EOYBookValueAmt": "112739",
+            "EOYFMVAmt": "144160"
+          },
+          {
+            "StockNm": "TEXTAINER GROUP HOLDINGS LIMITED (TGH) 4000 SHARES",
+            "EOYBookValueAmt": "126555",
+            "EOYFMVAmt": "137280"
+          },
+          {
+            "StockNm": "TIME WARNER INC. (TWX) 2250 SHARES",
+            "EOYBookValueAmt": "70943",
+            "EOYFMVAmt": "176993"
+          },
+          {
+            "StockNm": "TIMKEN CO (TKR) 5000 SHARES",
+            "EOYBookValueAmt": "43839",
+            "EOYFMVAmt": "213400"
+          },
+          {
+            "StockNm": "TIMKENSTEEL CORP (TMST) 2500 SHARES",
+            "EOYBookValueAmt": "18377",
+            "EOYFMVAmt": "92575"
+          },
+          {
+            "StockNm": "US BANCORP (USB) 32000 SHARES",
+            "EOYBookValueAmt": "25556",
+            "EOYFMVAmt": "1438400"
+          },
+          {
+            "StockNm": "UNION PACIFIC CORP (UNP) 14400 SHARES",
+            "EOYBookValueAmt": "9046",
+            "EOYFMVAmt": "1715472"
+          },
+          {
+            "StockNm": "WELLS FARGO & CO (WFC) 26000 SHARES",
+            "EOYBookValueAmt": "5408",
+            "EOYFMVAmt": "1425320"
+          },
+          {
+            "StockNm": "WESTERN DIGITAL (WDC) 3000 SHARES",
+            "EOYBookValueAmt": "116468",
+            "EOYFMVAmt": "332100"
+          },
+          {
+            "StockNm": "WEYERHAEUSER CO (WY) 5405 SHARES",
+            "EOYBookValueAmt": "62469",
+            "EOYFMVAmt": "193985"
+          },
+          {
+            "StockNm": "WHITING PETE CORP NEW COM (WLL) 2400 SHARES",
+            "EOYBookValueAmt": "105064",
+            "EOYFMVAmt": "79200"
+          },
+          {
+            "StockNm": "YUM! BRANDS INC (YUM) 1500 SHARES",
+            "EOYBookValueAmt": "103582",
+            "EOYFMVAmt": "109575"
+          }
+        ],
+        "_documentId": "RetDoc2018900001"
+      },
+      "InvestmentsGovtObligationsSch": {
+        "USGovtObligationsBookVlEOYAmt": "140647",
+        "USGovtObligationsEOYFMVAmt": "153622",
+        "StateLocalSecBookVlEOYAmt": "1664708",
+        "StateLocalSecEOYFMVAmt": "2250264",
+        "_documentId": "RetDoc2210400001"
+      },
+      "LegalFeesSchedule": {
+        "LegalFeesGrp": {
+          "CategoryTxt": "LEGAL FEES",
+          "LegalFeesAmt": "2308",
+          "NetInvestmentIncomeAmt": "1154",
+          "DisbursementsCharitablePrpsAmt": "1154"
+        },
+        "_documentId": "RetDoc2002100001"
+      },
+      "OtherExpensesSchedule": {
+        "OtherExpensesScheduleGrp": [
+          {
+            "Desc": "BANK CHARGES",
+            "RevenueAndExpensesPerBooksAmt": "48",
+            "NetInvestmentIncomeAmt": "24",
+            "DisbursementsCharitablePrpsAmt": "24"
+          },
+          {
+            "Desc": "SUBSCRIPTIONS",
+            "RevenueAndExpensesPerBooksAmt": "1170",
+            "NetInvestmentIncomeAmt": "585",
+            "DisbursementsCharitablePrpsAmt": "585"
+          },
+          {
+            "Desc": "DUES",
+            "RevenueAndExpensesPerBooksAmt": "2487",
+            "NetInvestmentIncomeAmt": "1243",
+            "DisbursementsCharitablePrpsAmt": "1244"
+          },
+          {
+            "Desc": "OFFICE EXPENSE",
+            "RevenueAndExpensesPerBooksAmt": "5165",
+            "NetInvestmentIncomeAmt": "2582",
+            "DisbursementsCharitablePrpsAmt": "2583"
+          },
+          {
+            "Desc": "INSURANCE",
+            "RevenueAndExpensesPerBooksAmt": "3150",
+            "NetInvestmentIncomeAmt": "1382",
+            "DisbursementsCharitablePrpsAmt": "1768"
+          },
+          {
+            "Desc": "P.O. BOX RENT",
+            "RevenueAndExpensesPerBooksAmt": "520",
+            "NetInvestmentIncomeAmt": "260",
+            "DisbursementsCharitablePrpsAmt": "260"
+          },
+          {
+            "Desc": "INVESTMENT FEES",
+            "RevenueAndExpensesPerBooksAmt": "98",
+            "NetInvestmentIncomeAmt": "98",
+            "DisbursementsCharitablePrpsAmt": "0"
+          }
+        ],
+        "_documentId": "RetDoc2003200001"
+      },
+      "OtherIncreasesSchedule": {
+        "OtherIncreasesDetail": {
+          "Desc": "DIFFERENCE IN BASIS OF SECURITIES",
+          "Amt": "2500"
+        },
+        "_documentId": "RetDoc2049700001"
+      },
+      "OtherProfessionalFeesSchedule": {
+        "OtherProfessionalFeesDetail": {
+          "CategoryTxt": "PAYROLL SERVICES",
+          "Amt": "1245",
+          "NetInvestmentIncomeAmt": "414",
+          "DisbursementsCharitablePrpsAmt": "831"
+        },
+        "_documentId": "RetDoc2002300001"
+      },
+      "TaxesSchedule": {
+        "TaxesDetail": [
+          {
+            "CategoryTxt": "OREGON DEPARTMENT OF JUSTICE CT-12 FEE",
+            "Amt": "1122",
+            "NetInvestmentIncomeAmt": "0",
+            "DisbursementsCharitablePrpsAmt": "1122"
+          },
+          {
+            "CategoryTxt": "FOREIGN TAX PAID",
+            "Amt": "2762",
+            "NetInvestmentIncomeAmt": "2762",
+            "DisbursementsCharitablePrpsAmt": "0"
+          },
+          {
+            "CategoryTxt": "FEDERAL EXCISE TAX",
+            "Amt": "10746",
+            "NetInvestmentIncomeAmt": "0",
+            "DisbursementsCharitablePrpsAmt": "0"
+          }
+        ],
+        "_documentId": "RetDoc2002500001"
+      },
+      "_documentCnt": "10"
+    },
+    "_xmlns": "http://www.irs.gov/efile",
+    "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "_xsi:schemaLocation": "http://www.irs.gov/efile",
+    "_returnVersion": "2014v5.0"
+  }
+}
