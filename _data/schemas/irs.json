@@ -1,0 +1,47 @@
+{
+  "2014": {
+    "path_to_tax_year": "Return.ReturnHeader.TaxYr",
+    "path_to_grants": "Return.ReturnData.IRS990PF.SupplementaryInformationGrp.GrantOrContributionPdDurYrGrp",
+    "grantee_name": "RecipientBusinessName.BusinessNameLine1Txt",
+    "grant_amount": "Amt",
+    "grantee_location_city": "RecipientUSAddress.CityNm",
+    "grantee_location_state": "RecipientUSAddress.StateAbbreviationCd",
+    "grant_purpose": "GrantOrContributionPurposeTxt"
+  },
+  "2013": {
+    "path_to_tax_year": "Return.ReturnHeader.TaxYr",
+    "path_to_grants": "Return.ReturnData.IRS990PF.SupplementaryInformationGrp.GrantOrContributionPdDurYrGrp",
+    "grantee_name": "RecipientBusinessName.BusinessNameLine1",
+    "grant_amount": "Amt",
+    "grantee_location_city": "RecipientUSAddress.City",
+    "grantee_location_state": "RecipientUSAddress.State",
+    "grant_purpose": "GrantOrContributionPurposeTxt"
+  },
+  "2012": {
+    "path_to_tax_year": "Return.ReturnHeader.TaxYear",
+    "path_to_grants": "Return.ReturnData.IRS990PF.SupplementaryInformation.GrantOrContriPaidDuringYear",
+    "grantee_name": "RecipientBusinessName.BusinessNameLine1",
+    "grant_amount": "Amount",
+    "grantee_location_city": "RecipientUSAddress.City",
+    "grantee_location_state": "RecipientUSAddress.State",
+    "grant_purpose": "PurposeOfGrantOrContribution"
+  },
+  "2011": {
+    "path_to_tax_year": "Return.ReturnHeader.TaxYear",
+    "path_to_grants": "Return.ReturnData.IRS990PF.SupplementaryInformation.GrantOrContriPaidDuringYear",
+    "grantee_name": "RecipientBusinessName.BusinessNameLine1",
+    "grant_amount": "Amount",
+    "grantee_location_city": "RecipientUSAddress.City",
+    "grantee_location_state": "RecipientUSAddress.State",
+    "grant_purpose": "PurposeOfGrantOrContribution"
+  },
+  "2010": {
+    "path_to_tax_year": "Return.ReturnHeader.TaxYear",
+    "path_to_grants": "Return.ReturnData.IRS990PF.SupplementaryInformation.GrantOrContriPaidDuringYear",
+    "grantee_name": "RecipientBusinessName.BusinessNameLine1",
+    "grant_amount": "Amount",
+    "grantee_location_city": "RecipientUSAddress.City",
+    "grantee_location_state": "RecipientUSAddress.State",
+    "grant_purpose": "PurposeOfGrantOrContribution"
+  }
+}

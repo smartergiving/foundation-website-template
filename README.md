@@ -65,9 +65,19 @@ The template contains a built-in grants database inspired by those found on larg
 
 1. **Upload Location**: `_data/grants/`
 
-2. **Format**: CSV format using [this template](https://github.com/smartergiving/foundation-website-template/blob/gh-pages/_data/templates/csv_template_for_grants_database.csv).
+1. **File Naming**: Each file must represent a single year and be named for that year (e.g. `2016.csv`)
 
-3. **File Naming**: Each file must represent a single year and be named for that year (e.g. `2016.csv`).
+1. **Format**: CSV format using [this template](https://github.com/smartergiving/foundation-website-template/blob/gh-pages/_data/templates/csv_template_for_grants_database.csv)
+
+***Experimental:*** *Use your IRS Form 990PF*  
+
+1. Find your XML-based Form 990PF [here](http://data.philly.com/datasets/irs990/)
+
+1. Convert to JSON format [here](http://codebeautify.org/xmltojson)
+
+1. Name the file for that tax year (e.g. `2014.json`)
+
+1. Upload to `_data/grants/`
 
 ## License & Credits  
 
