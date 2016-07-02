@@ -1,0 +1,927 @@
+{
+  "Return": {
+    "ReturnHeader": {
+      "ReturnTs": "2015-05-15T13:50:43-05:00",
+      "TaxPeriodEndDt": "2014-12-31",
+      "PreparerFirmGrp": {
+        "PreparerFirmEIN": "910189318",
+        "PreparerFirmName": {
+          "BusinessNameLine1Txt": "MOSS ADAMS LLP"
+        },
+        "PreparerUSAddress": {
+          "AddressLine1Txt": "975 OAK STREET SUITE 500",
+          "CityNm": "EUGENE",
+          "StateAbbreviationCd": "OR",
+          "ZIPCd": "97401"
+        }
+      },
+      "ReturnTypeCd": "990PF",
+      "TaxPeriodBeginDt": "2014-01-01",
+      "Filer": {
+        "EIN": "931266648",
+        "BusinessName": {
+          "BusinessNameLine1Txt": "CHAMBERS FAMILY FOUNDATION"
+        },
+        "BusinessNameControlTxt": "CHAM",
+        "PhoneNum": "5414842419",
+        "USAddress": {
+          "AddressLine1Txt": "800 WILLAMETTE STREET SUITE 750",
+          "CityNm": "EUGENE",
+          "StateAbbreviationCd": "OR",
+          "ZIPCd": "97401"
+        }
+      },
+      "BusinessOfficerGrp": {
+        "PersonNm": "SCOTT CHAMBERS",
+        "PersonTitleTxt": "TRUSTEE",
+        "PhoneNum": "5414842419",
+        "SignatureDt": "2015-05-14",
+        "DiscussWithPaidPreparerInd": "1"
+      },
+      "PreparerPersonGrp": {
+        "PreparerPersonNm": "WENDY CAMPOS",
+        "PTIN": "P00448102",
+        "PhoneNum": "5416861040"
+      },
+      "TaxYr": "2014",
+      "BuildTS": "2016-03-07 17:11:31Z",
+      "_binaryAttachmentCnt": "0"
+    },
+    "ReturnData": {
+      "IRS990PF": {
+        "AddressChangeInd": "X",
+        "Organization501c3ExemptPFInd": "X",
+        "FMVAssetsEOYAmt": "19047533",
+        "MethodOfAccountingCashInd": "X",
+        "AnalysisOfRevenueAndExpenses": {
+          "ScheduleBNotRequiredInd": "X",
+          "InterestOnSavRevAndExpnssAmt": "601",
+          "InterestOnSavNetInvstIncmAmt": "601",
+          "DividendsRevAndExpnssAmt": "444332",
+          "DividendsNetInvstIncmAmt": "444332",
+          "NetGainSaleAstRevAndExpnssAmt": "541236",
+          "GrossSalesPriceAmt": "1730435",
+          "CapGainNetIncmNetInvstIncmAmt": "541236",
+          "OtherIncomeRevAndExpnssAmt": {
+            "_referenceDocumentId": "RetDoc2001500001",
+            "__text": "1278"
+          },
+          "OtherIncomeNetInvstIncmAmt": "1278",
+          "OtherIncomeAdjNetIncmAmt": "0",
+          "TotalRevAndExpnssAmt": "987447",
+          "TotalNetInvstIncmAmt": "987447",
+          "TotalAdjNetIncmAmt": "0",
+          "CompOfcrDirTrstRevAndExpnssAmt": "0",
+          "CompOfcrDirTrstNetInvstIncmAmt": "0",
+          "CompOfcrDirTrstAdjNetIncmAmt": "0",
+          "CompOfcrDirTrstDsbrsChrtblAmt": "0",
+          "OthEmplSlrsWgsRevAndExpnssAmt": "29381",
+          "OthEmplSlrsWgsNetInvstIncmAmt": "22036",
+          "OthEmplSlrsWgsAdjNetIncmAmt": "0",
+          "OthEmplSlrsWgsDsbrsChrtblAmt": "7345",
+          "AccountingFeesRevAndExpnssAmt": {
+            "_referenceDocumentId": "RetDoc2002200001",
+            "__text": "4570"
+          },
+          "AccountingFeesNetInvstIncmAmt": "2285",
+          "AccountingFeesAdjNetIncmAmt": "0",
+          "AccountingFeesChrtblPrpsAmt": "2285",
+          "OtherProfFeesRevAndExpnssAmt": {
+            "_referenceDocumentId": "RetDoc2002300001",
+            "__text": "122942"
+          },
+          "OtherProfFeesNetInvstIncmAmt": "122942",
+          "OtherProfFeesAdjNetIncmAmt": "0",
+          "OtherProfFeesDsbrsChrtblAmt": "0",
+          "TaxesRevAndExpnssAmt": {
+            "_referenceDocumentId": "RetDoc2002500001",
+            "__text": "9558"
+          },
+          "TaxesNetInvstIncmAmt": "5597",
+          "TaxesAdjNetIncmAmt": "0",
+          "TaxesDsbrsChrtblAmt": "1234",
+          "TravConfMeetingRevAndExpnssAmt": "40",
+          "TravConfMeetingNetInvstIncmAmt": "0",
+          "TravConfMeetingAdjNetIncmAmt": "0",
+          "TravConfMeetingDsbrsChrtblAmt": "40",
+          "OtherExpensesRevAndExpnssAmt": {
+            "_referenceDocumentId": "RetDoc2003200001",
+            "__text": "889"
+          },
+          "OtherExpensesNetInvstIncmAmt": "0",
+          "OtherExpensesAdjNetIncmAmt": "0",
+          "OtherExpensesDsbrsChrtblAmt": "889",
+          "TotOprExpensesRevAndExpnssAmt": "167380",
+          "TotOprExpensesNetInvstIncmAmt": "152860",
+          "TotOprExpensesAdjNetIncmAmt": "0",
+          "TotOprExpensesDsbrsChrtblAmt": "11793",
+          "ContriPaidRevAndExpnssAmt": "839061",
+          "ContriPaidDsbrsChrtblAmt": "839061",
+          "TotalExpensesRevAndExpnssAmt": "1006441",
+          "TotalExpensesNetInvstIncmAmt": "152860",
+          "TotalExpensesAdjNetIncmAmt": "0",
+          "TotalExpensesDsbrsChrtblAmt": "850854",
+          "ExcessRevenueOverExpensesAmt": "-18994",
+          "NetInvestmentIncomeAmt": "834587",
+          "AdjustedNetIncomeAmt": "0"
+        },
+        "Form990PFBalanceSheetsGrp": {
+          "CashBOYAmt": "198164",
+          "CashEOYAmt": "64026",
+          "CashEOYFMVAmt": "64026",
+          "SavAndTempCashInvstBOYAmt": "692415",
+          "SavAndTempCashInvstEOYAmt": "1129294",
+          "SavAndTempCashInvstEOYFMVAmt": "1129294",
+          "CorporateStockBOYAmt": "10892814",
+          "CorporateStockEOYAmt": {
+            "_referenceDocumentId": "RetDoc2018900001",
+            "__text": "10658663"
+          },
+          "CorporateStockEOYFMVAmt": "14313453",
+          "CorporateBondsBOYAmt": "3548145",
+          "CorporateBondsEOYAmt": {
+            "_referenceDocumentId": "RetDoc2044400001",
+            "__text": "3512255"
+          },
+          "CorporateBondsEOYFMVAmt": "3533111",
+          "OtherInvestmentsBOYAmt": "86279",
+          "OtherInvestmentsEOYAmt": {
+            "_referenceDocumentId": "RetDoc2018100001",
+            "__text": "0"
+          },
+          "OtherInvestmentsEOYFMVAmt": "0",
+          "OtherAssetsBOYAmt": {
+            "_referenceDocumentId": "RetDoc2046600001",
+            "__text": "2246"
+          },
+          "OtherAssetsEOYAmt": {
+            "_referenceDocumentId": "RetDoc2046600001",
+            "__text": "7649"
+          },
+          "OtherAssetsEOYFMVAmt": {
+            "_referenceDocumentId": "RetDoc2046600001",
+            "__text": "7649"
+          },
+          "TotalAssetsBOYAmt": "15420063",
+          "TotalAssetsEOYAmt": "15371887",
+          "TotalAssetsEOYFMVAmt": "19047533",
+          "AccountsPayableBOYAmt": "21069",
+          "AccountsPayableEOYAmt": "32218",
+          "TotalLiabilitiesBOYAmt": "21069",
+          "TotalLiabilitiesEOYAmt": "32218",
+          "OrganizationFollowsSFAS117Ind": "X",
+          "UnrestrictedBOYAmt": "15398994",
+          "UnrestrictedEOYAmt": "15339669",
+          "TotNetAstOrFundBalancesBOYAmt": "15398994",
+          "TotNetAstOrFundBalancesEOYAmt": "15339669",
+          "TotalLiabilitiesNetAstBOYAmt": "15420063",
+          "TotalLiabilitiesNetAstEOYAmt": "15371887"
+        },
+        "ChgInNetAssetsFundBalancesGrp": {
+          "TotNetAstOrFundBalancesBOYAmt": "15398994",
+          "ExcessRevenueOverExpensesAmt": "-18994",
+          "OtherIncreasesAmt": {
+            "_referenceDocumentId": "RetDoc2049700001",
+            "__text": "8654"
+          },
+          "SubtotalAmt": "15388654",
+          "OtherDecreasesAmt": {
+            "_referenceDocumentId": "RetDoc2049800001",
+            "__text": "48985"
+          },
+          "TotNetAstOrFundBalancesEOYAmt": "15339669"
+        },
+        "CapGainsLossTxInvstIncmDetail": {
+          "CapGainsLossTxInvstIncmGrp": [
+            {
+              "PropertyDesc": "SALES OF PUBLICLY TRADED SECURITIES",
+              "HowAcquiredCd": "P",
+              "GrossSalesPriceAmt": "1729840",
+              "CostOrOtherBasisAmt": "1189199",
+              "GainOrLossAmt": "540641",
+              "GainsMinusExcessOrLossesAmt": "540641"
+            },
+            {
+              "PropertyDesc": "CAPITAL GAINS DIVIDENDS",
+              "HowAcquiredCd": "P",
+              "GrossSalesPriceAmt": "595",
+              "GainOrLossAmt": "595",
+              "GainsMinusExcessOrLossesAmt": "595"
+            }
+          ],
+          "CapitalGainNetIncomeAmt": "541236"
+        },
+        "QlfyUndSect4940eReducedTaxGrp": {
+          "LiableSection4942TaxInd": "0",
+          "AdjustedQlfyDistriYr1Amt": "798968",
+          "NetVlNoncharitableAssetsYr1Amt": "17748021",
+          "DistributionYr1Rt": "0.045017",
+          "AdjustedQlfyDistriYr2Amt": "832630",
+          "NetVlNoncharitableAssetsYr2Amt": "15976490",
+          "DistributionYr2Rt": "0.052116",
+          "AdjustedQlfyDistriYr3Amt": "755271",
+          "NetVlNoncharitableAssetsYr3Amt": "16690706",
+          "DistributionYr3Rt": "0.045251",
+          "AdjustedQlfyDistriYr4Amt": "738782",
+          "NetVlNoncharitableAssetsYr4Amt": "15991455",
+          "DistributionYr4Rt": "0.046199",
+          "AdjustedQlfyDistriYr5Amt": "872157",
+          "NetVlNoncharitableAssetsYr5Amt": "14614120",
+          "DistributionYr5Rt": "0.059679",
+          "TotalDistributionRt": "0.248262",
+          "AverageDistributionRt": "0.049652",
+          "NetVlNoncharitableAssetsAmt": "18776363",
+          "AdjNetVlNoncharitableAssetsAmt": "932284",
+          "NetInvestmentIncomePctAmt": "8346",
+          "AdjNonchrtblNetInvstIncmPctAmt": "940630",
+          "QualifyingDistributionsAmt": "850854"
+        },
+        "ExciseTaxBasedOnInvstIncmGrp": {
+          "InvestmentIncomeExciseTaxAmt": "16692",
+          "TaxUnderSection511Amt": "0",
+          "SubtotalAmt": "16692",
+          "SubtitleATaxAmt": "0",
+          "TaxBasedOnInvestmentIncomeAmt": "16692",
+          "EstimatedPlusOvpmtIncmTxAmt": "21760",
+          "TotalPaymentsAndCreditsAmt": "21760",
+          "OverpaymentAmt": "5068",
+          "AppliedToESTaxAmt": "5068",
+          "RefundAmt": "0"
+        },
+        "StatementsRegardingActyGrp": {
+          "LegislativePoliticalActyInd": "0",
+          "MoreThan100SpentInd": "0",
+          "Form1120POLFiledInd": "0",
+          "Section4955OrganizationTaxAmt": "0",
+          "Section4955ManagersTaxAmt": "0",
+          "TaxReimbursedAmt": "0",
+          "ActivitiesNotPreviouslyRptInd": "0",
+          "ChangesToArticlesOrBylawsInd": "0",
+          "UnrelatedBusIncmOverLimitInd": "0",
+          "OrganizationDissolvedEtcInd": "0",
+          "Section508eRqrSatisfiedInd": "1",
+          "AtLeast5000InAssetsInd": "1",
+          "OrgReportOrRegisterStateCd": "OR",
+          "Form990PFFiledWithAttyGenInd": "1",
+          "PrivateOperatingFoundationInd": "0",
+          "NewSubstantialContributorsInd": "0",
+          "OwnControlledEntityInd": "0",
+          "DonorAdvisedFundInd": "0",
+          "ComplyWithPublicInspRqrInd": "1",
+          "WebsiteAddressTxt": "WWW.CHAMBERSFAMILYFOUNDATION.COM",
+          "IndividualWithBooksNm": "SCOTT D CHAMBERS TRUSTEE",
+          "PhoneNum": "5414855611",
+          "LocationOfBooksUSAddress": {
+            "AddressLine1Txt": "2975 CHAD DRIVE",
+            "CityNm": "EUGENE",
+            "StateAbbreviationCd": "OR",
+            "ZIPCd": "97408"
+          },
+          "ForeignAccountsQuestionInd": "0"
+        },
+        "StatementsRegardingActy4720Grp": {
+          "SaleOrExchDisqualifiedPrsnInd": "0",
+          "BrrwOrLendDisqualifiedPrsnInd": "0",
+          "FurnGoodsDisqualifiedPrsnInd": "1",
+          "PayCompDisqualifiedPrsnInd": "0",
+          "TransferAstDisqualifiedPrsnInd": "0",
+          "PaymentToGovernmentOfficialInd": "0",
+          "ActsFailToQlfyAsExceptionsInd": "0",
+          "UncorrectedPriorActsInd": "0",
+          "UndistributedIncomePYInd": "0",
+          "BusinessHoldingsInd": "0",
+          "JeopardyInvestmentsInd": "0",
+          "UncorrectedPYJeopardyInvstInd": "0",
+          "InfluenceLegislationInd": "0",
+          "InfluenceElectionInd": "0",
+          "GrantsToIndividualsInd": "0",
+          "GrantsToOrganizationsInd": "1",
+          "NoncharitablePurposeInd": "0",
+          "TransactionsFailToQlfyAsExcInd": "1",
+          "MaintainedExpenditureRspnsInd": {
+            "_referenceDocumentId": "RetDoc2118100001",
+            "__text": "1"
+          },
+          "RcvFndsToPayPrsnlBnftCntrctInd": "0",
+          "PayPremiumsPrsnlBnftCntrctInd": "0",
+          "ProhibitedTaxShelterTransInd": "0"
+        },
+        "OfficerDirTrstKeyEmplInfoGrp": {
+          "OfficerDirTrstKeyEmplGrp": [
+            {
+              "PersonNm": "SCOTT D CHAMBERS",
+              "USAddress": {
+                "AddressLine1Txt": "800 WILLAMETTE STREET SUITE 750",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97401"
+              },
+              "TitleTxt": "TRUSTEE",
+              "AverageHrsPerWkDevotedToPosRt": "5.00",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "SILVA L CHAMBERS",
+              "USAddress": {
+                "AddressLine1Txt": "800 WILLAMETTE STREET SUITE 750",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97401"
+              },
+              "TitleTxt": "TRUSTEE",
+              "AverageHrsPerWkDevotedToPosRt": "2.00",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            }
+          ],
+          "CompOfHghstPdEmplOrNONETxt": "NONE",
+          "OtherEmployeePaidOver50kCnt": "0",
+          "CompOfHghstPdCntrctOrNONETxt": "NONE",
+          "ContractorPaidOver50kCnt": "0"
+        },
+        "SumOfProgramRelatedInvstGrp": {
+          "TotalAmt": "0"
+        },
+        "MinimumInvestmentReturnGrp": {
+          "AverageMonthlyFMVOfSecAmt": "18241936",
+          "AverageMonthlyCashBalancesAmt": "813362",
+          "FMVAllOtherNoncharitableAstAmt": "6999",
+          "TotalFMVOfUnusedAssetsAmt": "19062297",
+          "ReductionClaimedAmt": "0",
+          "AcquisitionIndebtednessAmt": "0",
+          "AdjustedTotalFMVOfUnusedAstAmt": "19062297",
+          "CashDeemedCharitableAmt": "285934",
+          "NetVlNoncharitableAssetsAmt": "18776363",
+          "MinimumInvestmentReturnAmt": "938818"
+        },
+        "DistributableAmountGrp": {
+          "MinimumInvestmentReturnAmt": "938818",
+          "TaxBasedOnInvestmentIncomeAmt": "16692",
+          "TotalTaxAmt": "16692",
+          "DistributableBeforeAdjAmt": "922126",
+          "RecoveriesQualfiedDistriAmt": "0",
+          "DistributableBeforeDedAmt": "922126",
+          "DeductionFromDistributableAmt": "0",
+          "DistributableAsAdjustedAmt": "922126"
+        },
+        "QualifyingDistriPartXIIGrp": {
+          "ExpensesAndContributionsAmt": "850854",
+          "ProgramRelatedInvstTotalAmt": "0",
+          "QualifyingDistributionsAmt": "850854",
+          "PctSect4940eOrgNetInvstIncmAmt": "0",
+          "AdjustedQualifyingDistriAmt": "850854"
+        },
+        "UndistributedIncomeGrp": {
+          "DistributableAsAdjustedAmt": "922126",
+          "UndistributedIncomePYAmt": "825244",
+          "TotalForPriorYearsAmt": "0",
+          "TotalExcessDistributionCyovAmt": "0",
+          "QualifyingDistributionsAmt": "850854",
+          "AppliedToYear1Amt": "825244",
+          "AppliedToPriorYearsAmt": "0",
+          "TreatedAsDistriFromCorpusAmt": "0",
+          "AppliedToCurrentYearAmt": "25610",
+          "RemainingDistriFromCorpusAmt": "0",
+          "ExcessDistriCyovAppCYCorpusAmt": "0",
+          "ExcessDistributionCyovAppCYAmt": "0",
+          "TotalCorpusAmt": "0",
+          "PriorYearUndistributedIncmAmt": "0",
+          "PriorYearDeficiencyOrTaxAmt": "0",
+          "Taxable1Amt": "0",
+          "Taxable2Amt": "0",
+          "UndistributedIncomeCYAmt": "896516",
+          "CorpusDistri170b1EOr4942g3Amt": "0",
+          "ExcessDistriCyovFromYr5Amt": "0",
+          "ExcessDistriCyovToNextYrAmt": "0"
+        },
+        "SupplementaryInformationGrp": {
+          "ApplicationSubmissionInfoGrp": {
+            "RecipientPersonNm": "CHAMBERS FAMILY FOUNDATION",
+            "RecipientUSAddress": {
+              "AddressLine1Txt": "800 WILLAMETTE STREET SUITE 750",
+              "CityNm": "EUGENE",
+              "StateAbbreviationCd": "OR",
+              "ZIPCd": "97401"
+            },
+            "RecipientPhoneNum": "5414842419",
+            "FormAndInfoAndMaterialsTxt": "APPLICATION AVAILABLE UPON REQUEST AND ATTACHED TO THIS RETURN",
+            "SubmissionDeadlinesTxt": "MARCH 31 AND SEPTEMBER 30",
+            "RestrictionsOnAwardsTxt": "LANE, BENTON, OR DESCHUTES COUNTY OREGON BENEFITS"
+          },
+          "GrantOrContributionPdDurYrGrp": [
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "CASCADE FOOTHILLS LIBRARY"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "PO BOX 12",
+                "CityNm": "DEXTER",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97431"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR MATERIALS FOR THE CHILDREN'S STORY TIME",
+              "Amt": "2600"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "CHILDREN'S MIRACLE NETWORK"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "PO BOX 10905",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97440"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR THE \"MR. BIILIE\" PAGEANT.",
+              "Amt": "500"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "EMERALD KIDSPORTS FOUNDATION"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "2190 POLK STREET",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97405"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR KIDSPORTS 60TH ANNIVERSARY CELEBRATION",
+              "Amt": "25600"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "FOOD FOR LANE COUNTY"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "770 BAILEY HILL ROAD",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97402"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS TO SUPPORT THE BROWN BAG PROGRAM",
+              "Amt": "10000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "CORNERSTONE COMMUNITY HOUSING"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "PO BOX 11923",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97440"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE GENERAL OPERATING SUPPORT FOR THE ACCESS PROGRAMS FOR LOW INCOME HOUSING",
+              "Amt": "5500"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "NATURE CONSERVANCY - OREGON CHAPTER"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "821 SE 14TH AVENUE",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97214"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR FLOODPLAIN HABITAT AT THE WILLAMETTE RIVER CONFLUENCE SITE",
+              "Amt": "35000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "ONE HOPE"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "2500 W 18TH AVENUE",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97402"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE MATCHING FUNDS",
+              "Amt": "3000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "PARENTING NOW"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "86 CENTENNIAL LOOP",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97401"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR THE FIRST THREE YEARS PROGRAM",
+              "Amt": "5000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "PEARL BUCK CENTER INC"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "3690 WEST 1ST AVENUE",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97402"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS TO HELP MEET NUTRITIONAL NEEDS OF PRESCHOOLERS",
+              "Amt": "10000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "SCHOOL GARDEN PROJECT OF LANE COUNTY"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "PO BOX 30072",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97403"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR EDCUATIONAL GARDENS IN THE SCHOOL SYSTEM",
+              "Amt": "10000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "SHELTERCARE"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "499 WEST 4TH AVENUE",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97402"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR A WAREHOUSE CONVERSION CAPITAL CAMPAIGN",
+              "Amt": "50000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "U OF O FOUNDATION"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "1720 EAST 13TH AVENUE",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97403"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR THE KEZI ARCHIVAL PROJECT",
+              "Amt": "30000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "VERY LITTLE THEATRE INC"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "2350 HILYARD STREET",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97405"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR GENERAL OPERATING SUPPORT",
+              "Amt": "5000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "WOMENSPACE"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "PO BOX 50127",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97405"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR EMERGENCY SERVICE, PARTICULARLY THE SAFE HOUSE",
+              "Amt": "7500"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "SACRED HEART MEDICAL CENTER FOUNDATION"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "PO BOX 10905",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97440"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR THE CENTER FOR MINIMALLY INVASIVE SURGERY",
+              "Amt": "100000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "U OF O FOUNDATION"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "1720 EAST 13TH AVENUE",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97403"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR THE CINEMA PACIFIC FILM FESTIVAL MID-YEAR 2015",
+              "Amt": "10000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "OREGON MUSEUM OF SCIENCE & INDUSTRY"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "1924 SE WATER AVE",
+                "CityNm": "PORTLAND",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97214"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR A 20-ACRE SCIENCE CAMP AT THE COAST IN NEWPORT OR",
+              "Amt": "10000"
+            }
+          ],
+          "TotalGrantOrContriPdDurYrAmt": "839061",
+          "GrantOrContriApprvForFutGrp": [
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "UNIVERSITY OF OREGON"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "1585 E 13TH AVE",
+                "CityNm": "EUGENE",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97403"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR GENERAL USE",
+              "Amt": "10000"
+            },
+            {
+              "RecipientBusinessName": {
+                "BusinessNameLine1Txt": "CASA OF LANE COUNTY"
+              },
+              "RecipientUSAddress": {
+                "AddressLine1Txt": "174 DEADMOND FERRY ROAD",
+                "CityNm": "SPRINGFIELD",
+                "StateAbbreviationCd": "OR",
+                "ZIPCd": "97477"
+              },
+              "RecipientFoundationStatusTxt": "PC",
+              "GrantOrContributionPurposeTxt": "TO PROVIDE FUNDS FOR GENERAL USE",
+              "Amt": "20000"
+            }
+          ],
+          "TotalGrantOrContriApprvFutAmt": "30000"
+        },
+        "AnalysisIncomeProducingActyGrp": {
+          "IntOnSavAndTempCashInvstGrp": {
+            "ExclusionCd": "14",
+            "ExclusionAmt": "601"
+          },
+          "DivAndIntFromSecPartVIIGrp": {
+            "ExclusionCd": "14",
+            "ExclusionAmt": "444332"
+          },
+          "OtherInvestmentIncmPartVIIGrp": {
+            "ExclusionCd": "18",
+            "ExclusionAmt": "1278"
+          },
+          "GainSalesAstOthThanInvntryGrp": {
+            "ExclusionCd": "18",
+            "ExclusionAmt": "541236"
+          },
+          "SubtotalsIncmProducingActyGrp": {
+            "UnrelatedBusinessTaxblIncmAmt": "0",
+            "ExclusionAmt": "987447",
+            "RelatedOrExemptFunctionIncmAmt": "0"
+          },
+          "TotalIncomeProducingActyAmt": "987447"
+        },
+        "TrnsfrTransRlnNonchrtblEOGrp": {
+          "TrnsfrOfCashToNonchrtblEOInd": "0",
+          "TrnsfrOtherAssetNonchrtblEOInd": "0",
+          "SalesOrExchangesOfAssetsInd": "0",
+          "PurchaseOfAssetsNonchrtblEOInd": "0",
+          "RentalOfFacilitiesOthAssetsInd": "0",
+          "ReimbursementArrangementsInd": "0",
+          "LoansOrLoanGuaranteesInd": "0",
+          "PerformanceOfServicesEtcInd": "0",
+          "SharingOfFacilitiesEtcInd": "0",
+          "RelationshipsNonchrtblEOInd": "0"
+        },
+        "_documentId": "RetDoc1235000001"
+      },
+      "AccountingFeesSchedule": {
+        "AccountingFeesDetail": {
+          "CategoryTxt": "ACCOUNTING FEES",
+          "Amt": "4570",
+          "NetInvestmentIncomeAmt": "2285",
+          "AdjustedNetIncomeAmt": "0",
+          "DisbursementsCharitablePrpsAmt": "2285"
+        },
+        "_documentId": "RetDoc2002200001"
+      },
+      "ExpenditureResponsibilityStmt": {
+        "ExpenditureResponsibilityGrp": {
+          "BusinessName": {
+            "BusinessNameLine1Txt": "EUGENE AREA CHAMBER OF COMMERCE"
+          },
+          "USAddress": {
+            "AddressLine1Txt": "1401 WILLAMETTE STREET",
+            "CityNm": "EUGENE",
+            "StateAbbreviationCd": "OR",
+            "ZIPCd": "97401"
+          },
+          "GrantDt": "2014-05-14",
+          "GrantAmt": "20000",
+          "PurposeOfGrantTxt": "TO SUPPORT THE LOCAL REGIONAL PROSPERITY ECONOMIC INITIATIVE.",
+          "ExpendedByGranteeAmt": "20000",
+          "AnyDiversionByGranteeTxt": "NONE",
+          "DatesOfReportsByGranteeTxt": "12/15/2014",
+          "VerificationDt": "2014-12-15"
+        },
+        "_documentId": "RetDoc2118100001"
+      },
+      "InvestmentsCorpBondsSchedule": {
+        "InvestmentsCorporateBondsGrp": [
+          {
+            "BondNm": "BONDS US BANK",
+            "EOYBookValueAmt": "1207976",
+            "EOYFMVAmt": "1200639"
+          },
+          {
+            "BondNm": "PHILIP V SWAN",
+            "EOYBookValueAmt": "1167584",
+            "EOYFMVAmt": "1199109"
+          },
+          {
+            "BondNm": "BONDS FERGUSON",
+            "EOYBookValueAmt": "1136695",
+            "EOYFMVAmt": "1133363"
+          }
+        ],
+        "_documentId": "RetDoc2044400001"
+      },
+      "InvestmentsCorpStockSchedule": {
+        "InvestmentsCorporateStockGrp": [
+          {
+            "StockNm": "US BANK",
+            "EOYBookValueAmt": "4117659",
+            "EOYFMVAmt": "5102467"
+          },
+          {
+            "StockNm": "PHILIP V SWAN",
+            "EOYBookValueAmt": "3840757",
+            "EOYFMVAmt": "5348823"
+          },
+          {
+            "StockNm": "FERGUSON",
+            "EOYBookValueAmt": "2700247",
+            "EOYFMVAmt": "3862163"
+          }
+        ],
+        "_documentId": "RetDoc2018900001"
+      },
+      "InvestmentsOtherSchedule2": {
+        "InvestmentsOtherGrp": {
+          "CategoryOrItemTxt": "MUTUAL FUND HOLDINGS SWAN",
+          "ListedAtCostOrFMVCd": "AT COST",
+          "BookValueAmt": "0",
+          "EOYFMVAmt": "0"
+        },
+        "_documentId": "RetDoc2018100001"
+      },
+      "OtherAssetsSchedule": {
+        "OtherAssetsScheduleGrp": [
+          {
+            "Desc": "DEPOSITS",
+            "BOYBookValueAmt": "650",
+            "EOYBookValueAmt": "650",
+            "EOYFMVAmt": "650"
+          },
+          {
+            "Desc": "PURCHASED INTEREST",
+            "BOYBookValueAmt": "1596",
+            "EOYBookValueAmt": "6999",
+            "EOYFMVAmt": "6999"
+          }
+        ],
+        "_documentId": "RetDoc2046600001"
+      },
+      "OtherDecreasesSchedule": {
+        "OtherDecreasesDetail": {
+          "Desc": "CURRENT YEAR ACCRUAL TO CASH ADJUSTMENT",
+          "Amt": "48985"
+        },
+        "_documentId": "RetDoc2049800001"
+      },
+      "OtherExpensesSchedule": {
+        "OtherExpensesScheduleGrp": [
+          {
+            "Desc": "BANK CHARGES",
+            "RevenueAndExpensesPerBooksAmt": "321",
+            "NetInvestmentIncomeAmt": "0",
+            "AdjustedNetIncomeAmt": "0",
+            "DisbursementsCharitablePrpsAmt": "321"
+          },
+          {
+            "Desc": "OFFICE SUPPLIES",
+            "RevenueAndExpensesPerBooksAmt": "253",
+            "NetInvestmentIncomeAmt": "0",
+            "AdjustedNetIncomeAmt": "0",
+            "DisbursementsCharitablePrpsAmt": "253"
+          },
+          {
+            "Desc": "POSTAGE",
+            "RevenueAndExpensesPerBooksAmt": "52",
+            "NetInvestmentIncomeAmt": "0",
+            "AdjustedNetIncomeAmt": "0",
+            "DisbursementsCharitablePrpsAmt": "52"
+          },
+          {
+            "Desc": "PHONE/IT",
+            "RevenueAndExpensesPerBooksAmt": "63",
+            "NetInvestmentIncomeAmt": "0",
+            "AdjustedNetIncomeAmt": "0",
+            "DisbursementsCharitablePrpsAmt": "63"
+          },
+          {
+            "Desc": "MEALS & ENTERTAINMENT",
+            "RevenueAndExpensesPerBooksAmt": "200",
+            "NetInvestmentIncomeAmt": "0",
+            "AdjustedNetIncomeAmt": "0",
+            "DisbursementsCharitablePrpsAmt": "200"
+          }
+        ],
+        "_documentId": "RetDoc2003200001"
+      },
+      "OtherIncomeSchedule2": {
+        "OtherIncomeDetail": {
+          "Desc": "MISCELLANEOUS INCOME",
+          "RevenueAndExpensesPerBooksAmt": "1278",
+          "NetInvestmentIncomeAmt": "1278"
+        },
+        "_documentId": "RetDoc2001500001"
+      },
+      "OtherIncreasesSchedule": {
+        "OtherIncreasesDetail": {
+          "Desc": "PRIOR PERIOD ADJUSTMENT",
+          "Amt": "8654"
+        },
+        "_documentId": "RetDoc2049700001"
+      },
+      "OtherProfessionalFeesSchedule": {
+        "OtherProfessionalFeesDetail": {
+          "CategoryTxt": "INVESTMENT FEES",
+          "Amt": "122942",
+          "NetInvestmentIncomeAmt": "122942",
+          "AdjustedNetIncomeAmt": "0",
+          "DisbursementsCharitablePrpsAmt": "0"
+        },
+        "_documentId": "RetDoc2002300001"
+      },
+      "TaxesSchedule": {
+        "TaxesDetail": [
+          {
+            "CategoryTxt": "FOREIGN TAXES ON INVESTMENT INCOME",
+            "Amt": "5495",
+            "NetInvestmentIncomeAmt": "5495",
+            "AdjustedNetIncomeAmt": "0",
+            "DisbursementsCharitablePrpsAmt": "0"
+          },
+          {
+            "CategoryTxt": "PAYROLL TAXES",
+            "Amt": "136",
+            "NetInvestmentIncomeAmt": "102",
+            "AdjustedNetIncomeAmt": "0",
+            "DisbursementsCharitablePrpsAmt": "34"
+          },
+          {
+            "CategoryTxt": "TAXES & LICENSES",
+            "Amt": "3927",
+            "NetInvestmentIncomeAmt": "0",
+            "AdjustedNetIncomeAmt": "0",
+            "DisbursementsCharitablePrpsAmt": "1200"
+          }
+        ],
+        "_documentId": "RetDoc2002500001"
+      },
+      "_documentCnt": "13"
+    },
+    "_xmlns": "http://www.irs.gov/efile",
+    "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "_xsi:schemaLocation": "http://www.irs.gov/efile",
+    "_returnVersion": "2014v5.0"
+  }
+}
