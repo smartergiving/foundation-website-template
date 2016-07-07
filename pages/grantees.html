@@ -47,7 +47,7 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
                   {% endif %}
                 </td>
                 <td class="db-grantee-location">{{ grant.grantee_location }}</td>
-                <td class="db-grant-amount" data-grant-group-name="{{ year[0] }}" data-grant-amount="{{ grant.grant_amount }}">{{ grant.grant_amount }}</td>
+                <td class="db-grant-amount" data-grant-group-name="{{ year[0] }}" data-grant-amount="{{ grant.grant_amount | remove: ',' }}">{{ grant.grant_amount }}</td>
                 <td class="db-grant-purpose">{{ grant.grant_purpose }}</td>
               </tr>
               {% capture total_grant_count %}{{ forloop.length }}{% endcapture %}
