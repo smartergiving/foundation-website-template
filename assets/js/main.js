@@ -156,40 +156,65 @@
     // Nav scroll-to-element
       $('.scrolly').scrolly();
 
-    // Format numbers
-      // Docs: https://github.com/customd/jquery-number
-      $('[data-grant-amount], [data-grant-group-total')
-        .number( true )
-        .prepend( '$' );
+    // Grants Database
 
-    // Grant totals
-      var array = {};
-      var group;
-      var amount;
-      var total = 0;
+      // List.js
+      var options = {
+        valueNames: [ 
+          'db-grantee-name',
+          'db-grantee-location',
+          'db-grant-amount',
+          'db-grantee-purpose'
+        ]
+      };
 
-      $('td[data-grant-group-name]').each(function(i, el){
+      list1 = new List('2015', options);
+      list2 = new List('2014', options);
+      list3 = new List('2013', options);
+      list4 = new List('2012', options);
 
-          group = $(el).data('grant-group-name');
-          amount = $(el).data('grant-amount');
-
-          if (array.hasOwnProperty(group)) {
-              array[group] += amount;
-          } else {
-              array[group] = amount;
-          }
-
+      $('#db-search').on('keyup', function() {
+        var searchString = $(this).val();
+        list1.search(searchString);
+        list2.search(searchString);
+        list3.search(searchString);
+        list4.search(searchString);
       });
 
-      //Loop through array
-      $.each( array, function( key, value ) {
+      // Format numbers
+        // Docs: https://github.com/customd/jquery-number
+        $('[data-grant-amount], [data-grant-group-total')
+          .number( true )
+          .prepend( '$' );
 
-        $('td[data-grant-group-total="'+ key +'"]')
-          .html(value.toFixed(0))
-          .number(true)
-          .prepend('$');
+      // Grant totals
+        var array = {};
+        var group;
+        var amount;
+        var total = 0;
 
-      });
+        $('td[data-grant-group-name]').each(function(i, el){
+
+            group = $(el).data('grant-group-name');
+            amount = $(el).data('grant-amount');
+
+            if (array.hasOwnProperty(group)) {
+                array[group] += amount;
+            } else {
+                array[group] = amount;
+            }
+
+        });
+
+        //Loop through array
+        $.each( array, function( key, value ) {
+
+          $('td[data-grant-group-total="'+ key +'"]')
+            .html(value.toFixed(0))
+            .number(true)
+            .prepend('$');
+
+        });
 
   });
 

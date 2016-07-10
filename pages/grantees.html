@@ -12,20 +12,35 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
     <p>{{ page.intro_text }}</p>
   {% endif %}
   <ul class="actions actions-grants-nav">
+    <div class="row uniform 50%">
+      <div class="6u 12u$(xsmall)">
+        <!-- List.js Docs: http://www.listjs.com/examples/table -->
+        <input class="search" id="db-search" type="text" placeholder="Search" />
+      </div>
+    </div>
+  </ul>
+  <!--ul class="actions actions-grants-nav">
     {% assign all_years = site.data.grants | sort %}
     {% for year in all_years reversed %}
       <li><a href="#{{year[0]}}" class="button small button-fit scrolly">{{year[0]}}</a></li>
     {% endfor %}
-  </ul>
+  </ul-->
 </section>
 
 <section id="grant-wrapper">
   <!-- Grants -->
   {% for year in all_years reversed %}
-    <section id="{{ year[0] | slugify }}">
+    <div id="{{ year[0] | slugify }}" class="js-listjs">
       <h3>{{ year[0] }}</h3>
       <table border="0px">
-        <!-- List.js Docs: http://www.listjs.com/examples/table -->
+        <thead>
+          <tr>
+            <th class="sort" data-sort="db-grantee-name">Grantee Name</th>
+            <th class="sort" data-sort="db-grantee-location">Location</th>
+            <th class="sort" data-sort="db-grant-amount">Amount</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
         <tbody class="list">
 
           <!-- Check if IRS Data File -->
@@ -43,7 +58,7 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
                   {% if grant.grantee_url %}
                     <a target="_blank" href="{{ grant.grantee_url }}">{{ grant.grantee_name }}</a>
                   {% else %}
-                    {{ grant.grantee_name}}
+                    {{ grant.grantee_name }}
                   {% endif %}
                 </td>
                 <td class="db-grantee-location">{{ grant.grantee_location }}</td>
@@ -64,6 +79,8 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
           </tr>
         </tfoot>
       </table>
-    </section>
+    </div>
   {% endfor %}
 </section>
+
+<script src="{{ site.baseurl }}/assets/js/list.min.js"></script>
