@@ -159,27 +159,35 @@
     // Grants Database
 
       // List.js
-      var options = {
-        valueNames: [ 
-          'db-grantee-name',
-          'db-grantee-location',
-          'db-grant-amount',
-          'db-grantee-purpose'
-        ]
-      };
 
-      list1 = new List('2015', options);
-      list2 = new List('2014', options);
-      list3 = new List('2013', options);
-      list4 = new List('2012', options);
+        var listOptions = {
+          valueNames: [ 
+            'db-grantee-name',
+            'db-grantee-location',
+            'db-grant-amount',
+            'db-grantee-purpose'
+          ]
+        };
 
-      $('#db-search').on('keyup', function() {
-        var searchString = $(this).val();
-        list1.search(searchString);
-        list2.search(searchString);
-        list3.search(searchString);
-        list4.search(searchString);
-      });
+        listDefineAll = $('.js-listjs');
+        listSearchAll = [];
+        $.each(listDefineAll, function(index) {
+          //Get the id of each wrapper div
+          currentWrapperId = this.id;
+          //Make a name for the new list object
+          listObject = 'listObject-' + index;
+          //Inititalize a new list
+          listObject = new List(currentWrapperId, listOptions);
+          //Add new list to search array
+          listSearchAll.push(listObject);
+        });
+
+        $('#db-search').on('keyup', function() {
+          var searchString = $(this).val();
+          $.each(listSearchAll, function(){
+            this.search(searchString);
+          });
+        });
 
       // Format numbers
         // Docs: https://github.com/customd/jquery-number
