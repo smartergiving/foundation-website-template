@@ -15,7 +15,12 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
     <div class="row uniform 50%">
       <div class="6u 12u$(xsmall)">
         <!-- List.js Docs: http://www.listjs.com/examples/table -->
-        <input class="search" id="db-search" type="text" placeholder="Search" />
+        <form class="search-wrapper">
+          <input class="search-box" id="db-search" type="text" placeholder="Search" autocomplete="off" required />
+          <!--span class="search-clear fa fa-times-circle hide" aria-hidden="true"></span-->
+          <button class="search-clear fa fa-times-circle" type="reset"></button>
+        </form>
+        
       </div>
     </div>
   </ul>

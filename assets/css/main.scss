@@ -347,6 +347,29 @@ $wide-layout-margin: 20%;
 .actions-grants-nav li {
   padding-bottom: 1em !important;
 }
+
+  /* Search */
+  .search-wrapper {
+    position: relative;
+    .search-box:not(:valid) ~ .search-clear {
+      display: none;
+    }
+    .search-clear {
+      text-decoration: none;
+      position: absolute;
+      right: 0.75em;
+      bottom: 0.75em;
+      border: 0;
+      padding: 0;
+      outline: 0;
+      color: inherit;
+      background-color: inherit;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
 a.grantee-thumb {
   border: none;
 }

@@ -160,6 +160,7 @@
 
       // List.js
 
+        //Define lists and sort names
         var listOptions = {
           valueNames: [ 
             'db-grantee-name',
@@ -182,10 +183,18 @@
           listSearchAll.push(listObject);
         });
 
+        //Enable live search
         $('#db-search').on('keyup', function() {
           var searchString = $(this).val();
           $.each(listSearchAll, function(){
             this.search(searchString);
+          });
+        });
+
+        //Reset search
+        $('.search-clear').click(function() {
+          $.each(listSearchAll, function(){
+            this.search();
           });
         });
 
