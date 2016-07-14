@@ -188,7 +188,27 @@
           var searchString = $(this).val();
           $.each(listSearchAll, function(){
             this.search(searchString);
+            //Show count
+            var listSearchSize = $('.list tr').length;
+            $('.search-count').html(listSearchSize);
+            $('.search-box-label').css('visibility', 'visible');
+            //Simplify table styling
+            $('tfoot, thead').hide();
+            $('tbody.list:empty').closest('.js-listjs').children('h3').hide();
+            $('tbody.list:parent').closest('.js-listjs').children('h3').show();
           });
+          //Add anchor reference to count element for scroll
+          var listFirstResult = $('tbody tr').eq(0).closest($('.js-listjs')).attr('id');
+          if ( typeof listFirstResult !== 'undefined' ) {
+            $('.search-count').attr('href', '#' + listFirstResult);
+            $('.scrolly').scrolly(); //Re-initialize Scrolly
+          }
+          else {
+            $('.search-count').removeAttr("href");
+            //TODO: Show no results found message
+            
+          }
+
         });
 
         //Reset search
@@ -196,6 +216,7 @@
           $.each(listSearchAll, function(){
             this.search();
           });
+          $('.search-box-label').css('visibility', 'hidden');
         });
 
       // Format numbers

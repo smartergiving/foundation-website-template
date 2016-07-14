@@ -11,16 +11,15 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
   {% if page.intro_text %}
     <p>{{ page.intro_text }}</p>
   {% endif %}
+  {% assign all_years = site.data.grants | sort %}
   <ul class="actions actions-grants-nav">
     <div class="row uniform 50%">
       <div class="6u 12u$(xsmall)">
-        <!-- List.js Docs: http://www.listjs.com/examples/table -->
         <form class="search-wrapper">
           <input class="search-box" id="db-search" type="text" placeholder="Search" autocomplete="off" required />
-          <!--span class="search-clear fa fa-times-circle hide" aria-hidden="true"></span-->
           <button class="search-clear fa fa-times-circle" type="reset"></button>
+          <label class="search-box-label" for="db-search">Matches Found: <a href="#" class="search-count scrolly"></a></label>
         </form>
-        
       </div>
     </div>
   </ul>
@@ -36,14 +35,14 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
   <!-- Grants -->
   {% for year in all_years reversed %}
     <div id="{{ year[0] | slugify }}" class="js-listjs">
-      <h3>{{ year[0] }}</h3>
+      <h3 class="db-table-header">{{ year[0] }}</h3>
       <table border="0px">
         <thead>
           <tr>
-            <th class="sort" data-sort="db-grantee-name">Grantee Name</th>
-            <th class="sort" data-sort="db-grantee-location">Location</th>
-            <th class="sort" data-sort="db-grant-amount">Amount</th>
-            <th>Purpose</th>
+            <th class="sort db-grantee-name" data-sort="db-grantee-name">Grantee Name</th>
+            <th class="sort db-grantee-location" data-sort="db-grantee-location">Location</th>
+            <th class="sort db-grant-amount" data-sort="db-grant-amount">Amount</th>
+            <th class="db-grant-purpose">Purpose</th>
           </tr>
         </thead>
         <tbody class="list">
@@ -58,7 +57,7 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
 
             <!-- Pull from CSV Template -->
             {% for grant in year[1] %}
-              <tr>
+              <tr id="{{ year[0] }}-{{ grant.grantee_name | slugify }}">
                 <td class="db-grantee-name">
                   {% if grant.grantee_url %}
                     <a target="_blank" href="{{ grant.grantee_url }}">{{ grant.grantee_name }}</a>
@@ -78,9 +77,9 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
         <tfoot>
           <tr>
             <td>{{ total_grant_count }} Grants</td>
-            <td></td>
+            <td class="db-grantee-location"></td>
             <td data-grant-group-total="{{ year[0] }}"></td>
-            <td></td>
+            <td class="db-grant-purpose"></td>
           </tr>
         </tfoot>
       </table>

@@ -9,7 +9,7 @@
 {% if irs_tax_year == "2014" %}
 
   {% for grant in year[1].Return.ReturnData.IRS990PF.SupplementaryInformationGrp.GrantOrContributionPdDurYrGrp %}
-    <tr>
+    <tr id="{{ irs_tax_year }}-{{ grant.RecipientBusinessName.BusinessNameLine1Txt | slugify }}">
       <td class="db-grantee-name">{{ grant.RecipientBusinessName.BusinessNameLine1Txt }}</td>
       <td class="db-grantee-location">{{ grant.RecipientUSAddress.CityNm | capitalize }}, {{ grant.RecipientUSAddress.StateAbbreviationCd }}</td>
       <td class="db-grant-amount" data-grant-group-name="{{ year[0] }}" data-grant-amount="{{ grant.Amt }}">{{ grant.Amt }}</td>
@@ -21,7 +21,7 @@
 {% elsif irs_tax_year == "2013" %}
 
   {% for grant in year[1].Return.ReturnData.IRS990PF.SupplementaryInformationGrp.GrantOrContributionPdDurYrGrp %}
-    <tr>
+    <tr id="{{ irs_tax_year }}-{{ grant.RecipientBusinessName.BusinessNameLine1 | slugify }}">
       <td class="db-grantee-name">{{ grant.RecipientBusinessName.BusinessNameLine1 }}</td>
       <td class="db-grantee-location">{{ grant.RecipientUSAddress.City | capitalize }}, {{ grant.RecipientUSAddress.State }}</td>
       <td class="db-grant-amount" data-grant-group-name="{{ year[0] }}" data-grant-amount="{{ grant.Amt }}">{{ grant.Amt }}</td>
@@ -33,7 +33,7 @@
 {% elsif irs_tax_year == "2012" %}
 
   {% for grant in year[1].Return.ReturnData.IRS990PF.SupplementaryInformation.GrantOrContriPaidDuringYear %}
-    <tr>
+    <tr id="{{ irs_tax_year }}-{{ grant.RecipientBusinessName.BusinessNameLine1 | slugify }}">
       <td class="db-grantee-name">{{ grant.RecipientBusinessName.BusinessNameLine1 }}</td>
       <td class="db-grantee-location">{{ grant.RecipientUSAddress.City | capitalize }}, {{ grant.RecipientUSAddress.State }}</td>
       <td class="db-grant-amount" data-grant-group-name="{{ year[0] }}" data-grant-amount="{{ grant.Amount }}">{{ grant.Amount }}</td>
@@ -45,8 +45,8 @@
 {% elsif irs_tax_year == "2011" %}
 
   {% for grant in year[1].Return.ReturnData.IRS990PF.SupplementaryInformation.GrantOrContriPaidDuringYear %}
-    <tr>
-      <td class="db-grantee-name">{{ grant.RecipientBusinessName.BusinessNameLine1 }}      </td>
+    <tr id="{{ irs_tax_year }}-{{ grant.RecipientBusinessName.BusinessNameLine1 | slugify }}">
+      <td class="db-grantee-name">{{ grant.RecipientBusinessName.BusinessNameLine1 }}</td>
       <td class="db-grantee-location">{{ grant.RecipientUSAddress.City | capitalize }}, {{ grant.RecipientUSAddress.State }}</td>
       <td class="db-grant-amount" data-grant-group-name="{{ year[0] }}" data-grant-amount="{{ grant.Amount }}">{{ grant.Amount }}</td>
       <td class="db-grant-purpose">{{ grant.PurposeOfGrantOrContribution | capitalize }}</td>
