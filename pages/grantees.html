@@ -39,9 +39,9 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
       <table border="0px">
         <thead>
           <tr>
-            <th class="sort db-grantee-name" data-sort="db-grantee-name">Grantee Name</th>
-            <th class="sort db-grantee-location" data-sort="db-grantee-location">Location</th>
-            <th class="sort db-grant-amount" data-sort="db-grant-amount">Amount</th>
+            <th class="sort" data-sort="db-grantee-name">Grantee Name</th>
+            <th class="sort" data-sort="db-grantee-location">Location</th>
+            <th class="sort" data-sort="db-grant-amount">Amount</th>
             <th class="db-grant-purpose">Purpose</th>
           </tr>
         </thead>
@@ -85,6 +85,10 @@ intro_text: Lorem ipsum dolor sit amet, dui nam sed, donec amet sit sapien aliqu
       </table>
     </div>
   {% endfor %}
+  <section id="search-no-items-found">
+    <h3>No grants found</h3>
+    <!--p><a href="#db-search" class="scrolly">Try new search</a></p-->
+  </section>
 </section>
 
 <script src="{{ site.baseurl }}/assets/js/list.min.js"></script>

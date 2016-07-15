@@ -183,6 +183,29 @@
           listSearchAll.push(listObject);
         });
 
+        //Define UI states
+        var listStateDefault = function() {
+          $('.search-box-label').css('visibility', 'hidden');
+          $('tfoot, thead').show();
+          $('.js-listjs').show();
+          $('tbody.list:parent').closest('.js-listjs').children('h3').show();
+          $('#search-no-items-found').hide();
+        };
+
+        var listStateSearching = function() {
+          $('.search-box-label').css('visibility', 'visible');
+          $('tfoot, thead').hide();
+          $('tbody.list:empty').closest('.js-listjs').children('h3').hide();
+          $('tbody.list:parent').closest('.js-listjs').children('h3').show();
+          $('.js-listjs').show();
+          $('#search-no-items-found').hide();
+        };
+
+        var listStateNoResults = function() {
+          $('#search-no-items-found').show();
+          $('.js-listjs').hide();
+        };
+
         //Enable live search
         $('#db-search').on('keyup', function() {
           var searchString = $(this).val();
@@ -191,22 +214,19 @@
             //Show count
             var listSearchSize = $('.list tr').length;
             $('.search-count').html(listSearchSize);
-            $('.search-box-label').css('visibility', 'visible');
-            //Simplify table styling
-            $('tfoot, thead').hide();
-            $('tbody.list:empty').closest('.js-listjs').children('h3').hide();
-            $('tbody.list:parent').closest('.js-listjs').children('h3').show();
+            listStateSearching();
           });
+
           //Add anchor reference to count element for scroll
           var listFirstResult = $('tbody tr').eq(0).closest($('.js-listjs')).attr('id');
           if ( typeof listFirstResult !== 'undefined' ) {
             $('.search-count').attr('href', '#' + listFirstResult);
             $('.scrolly').scrolly(); //Re-initialize Scrolly
+            listStateSearching();
           }
           else {
             $('.search-count').removeAttr("href");
-            //TODO: Show no results found message
-            
+            listStateNoResults();
           }
 
         });
@@ -216,7 +236,7 @@
           $.each(listSearchAll, function(){
             this.search();
           });
-          $('.search-box-label').css('visibility', 'hidden');
+          listStateDefault();
         });
 
       // Format numbers

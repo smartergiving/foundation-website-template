@@ -349,6 +349,9 @@ $wide-layout-margin: 20%;
 }
 
   /* Search */
+  .sort {
+    cursor: pointer;
+  }
   .search-wrapper {
     position: relative;
     .search-box:not(:valid) ~ .search-clear {
@@ -381,9 +384,10 @@ $wide-layout-margin: 20%;
       color: _palette(accent1, bg);
       display: inline-block;
     }
-    tr td.search-no-items-found {
-      
-    }
+  }
+  #search-no-items-found {
+    display: none;
+    min-height: 500px;
   }
 
 a.grantee-thumb {
