@@ -1,7 +1,6 @@
 # Grantmaker settings
 foundation_name: The Example Foundation
 foundation_tagline: Advancing the adoption of open source technology among progressive funders
-email_public: hello@example.com
 grant_application_login: https://www.grantinterface.com/Common/LogOn.aspx?eqs=kw_123456_EXAMPLE
 
 # Social media settings

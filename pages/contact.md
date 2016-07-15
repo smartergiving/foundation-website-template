@@ -7,7 +7,7 @@ state: OR
 zip: 97701
 phone: 541.555.1212
 fax: 541.555.1214
-email: site.email_public
+email: hello@example.com
 layout: contact
 permalink: /:basename/
 ---
