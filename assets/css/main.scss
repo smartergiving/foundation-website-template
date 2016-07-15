@@ -466,8 +466,8 @@ a.grantee-thumb {
 }
 
 @media only screen and (max-width: $screen-xs-max)  {
-  .db-grantee-location, .db-grant-purpose, .actions-grants-nav {
-    //display: none;
+  .actions-grants-nav {
+    display: none;
   }
 }
 
