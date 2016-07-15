@@ -89,7 +89,9 @@ Design
   - Free for personal and commercial use under the [CCA 3.0 license](http://html5up.net/license)
   
 Grants Database & Jekyll Template  
-  - [SmarterGiving](https://smartergiving.org/)
+  - Author [SmarterGiving](https://smartergiving.org/)
+  - Free for personal and commercial use under the [Common Public Application License (CPAL)](https://opensource.org/licenses/cpal_1.0)
+  - Attribution link required
 
 Assets  
   - Demo Images: [Unsplash](http://unsplash.com)  
@@ -105,22 +107,15 @@ Other
 
 #### License
 
-&copy; [SmarterGiving](https://smartergiving.org/) under the MIT License (MIT):
+&copy; [SmarterGiving](https://smartergiving.org/) under [Common Public Attribution License 1.0 (CPAL)](https://opensource.org/licenses/cpal_1.0):
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The "human-readable" version of CPAL would read like this:  
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+  - This software is open source and can be freely used, modified, and distributed.  
+  
+  - This software can be used for commercial purposes.  
+  
+  - Attribution to the authorship of this software on the site front-end in the form of hyperlink is required.
+  
+  - Attribution to the authorship of this software on the site front-end in the form of hyperlink can be waived with permission of the original author.  
+  
