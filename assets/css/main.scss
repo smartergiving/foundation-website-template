@@ -390,6 +390,30 @@ $wide-layout-margin: 20%;
     min-height: 500px;
   }
 
+@media only screen and (min-width: $screen-xs) {
+
+  table {
+  table-layout: fixed;
+  width: 100%;
+  }
+
+  th, td {
+    &:nth-child(1) {
+      width: 30%;
+    }
+    &:nth-child(2) {
+      width: 15%;
+    }
+    &:nth-child(3) {
+      width: 15%;
+    }
+    &:nth-child(4) {
+      width: 40%
+    }
+  }
+
+}
+
 
 @media only screen and (max-width: $screen-xs) {
 
@@ -415,7 +439,7 @@ $wide-layout-margin: 20%;
   tfoot tr {
     border: solid 2px #efefef;
   }
-  
+
   tfoot tr td {
     display: block;
     text-align: center;
