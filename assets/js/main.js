@@ -241,7 +241,7 @@
 
       // Format numbers
         // Docs: https://github.com/customd/jquery-number
-        $('[data-grant-amount], [data-grant-group-total')
+        $('[data-grant-amount], [data-grant-group-total]')
           .number( true )
           .prepend( '$' );
 
@@ -266,7 +266,6 @@
 
         //Loop through array
         $.each( array, function( key, value ) {
-
           $('td[data-grant-group-total="'+ key +'"]')
             .html(value.toFixed(0))
             .number(true)

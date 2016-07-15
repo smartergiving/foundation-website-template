@@ -343,7 +343,7 @@ $wide-layout-margin: 20%;
   content: 'Read More';
 }
 
-/* Grantees */
+/* Grantees & Grants DB */
 .actions-grants-nav li {
   padding-bottom: 1em !important;
 }
@@ -390,6 +390,43 @@ $wide-layout-margin: 20%;
     min-height: 500px;
   }
 
+
+@media only screen and (max-width: $screen-xs) {
+
+  table, thead, tbody, tfoot, th, td, tr { 
+    display: block; 
+  }
+  
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  tr { border: 1px solid #ccc; }
+  
+  td { 
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+
+  tfoot tr {
+    border: solid 2px #efefef;
+  }
+  
+  tfoot tr td {
+    display: block;
+    text-align: center;
+    &.db-grantee-location,
+    &.db-grant-purpose {
+      display: none;
+    }
+  }
+
+}
+
 a.grantee-thumb {
   border: none;
 }
@@ -406,7 +443,7 @@ a.grantee-thumb {
 
 @media only screen and (max-width: $screen-xs-max)  {
   .db-grantee-location, .db-grant-purpose, .actions-grants-nav {
-    display: none;
+    //display: none;
   }
 }
 
