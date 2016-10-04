@@ -63,13 +63,15 @@ For those familiar with Jekyll and Github Pages, the template is fully compatibl
 
 The template contains a built-in grants database inspired by those found on large foundation websites. Just upload your annual lists of grants and the template will handle the rest.
 
-1. **Upload Location**: `_data/grants/`
+#### Option A: Default CSV *(Recommended)*
 
-1. **File Naming**: Each file must represent a single year and be named for that year (e.g. `2016.csv`)
+1. **Upload Location:** [`_data/grants/`](https://github.com/smartergiving/foundation-website-template/tree/gh-pages/_data/grants)
 
-1. **Format**: CSV format using [this template](https://github.com/smartergiving/foundation-website-template/blob/gh-pages/_data/templates/csv_template_for_grants_database.csv)
+1. **File Naming:** Each file must represent a single year and be named for that year (e.g. `2016.csv`)
 
-***Experimental:*** *Use your IRS Form 990PF*  
+1. **Format:** CSV format using [this template](https://github.com/smartergiving/foundation-website-template/blob/gh-pages/_data/templates/csv_template_for_grants_database.csv)
+
+#### Option B: Form 990PF
 
 1. Find your XML-based Form 990PF [here](http://data.philly.com/datasets/irs990/)
 
@@ -77,7 +79,19 @@ The template contains a built-in grants database inspired by those found on larg
 
 1. Name the file for that tax year (e.g. `2014.json`)
 
-1. Upload to `_data/grants/`
+1. Upload to [`_data/grants/`](https://github.com/smartergiving/foundation-website-template/tree/gh-pages/_data/grants)
+
+#### Option C: Custom CSV
+
+1. Use your existing grants list in CSV format. We recommend validating your CSV file using [this free tool](http://csvlint.io/). The first row should contain the header names.
+
+1. **Change Setting:** Change the default `db_table_source_type` setting from `template` to `custom`. The setting can be found in  [`pages/grantees.html`](https://github.com/smartergiving/foundation-website-template/blob/gh-pages/pages/grantees.html#L5).
+
+1. **Upload Location:** [`_data/grants/`](https://github.com/smartergiving/foundation-website-template/tree/gh-pages/_data/grants)
+
+1. **File Naming:** Each file must represent a single year and be named for that year (e.g. `2016.csv`)
+
+1. **Note:** The search function is not yet compatible with custom CSVs
 
 ## License & Credits  
 

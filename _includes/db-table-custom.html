@@ -1,0 +1,29 @@
+<table class="table-custom" border="0px">
+
+  <thead>
+    <tr>
+      {% for keyvaluepair in year[1] %} 
+        {% if forloop.first == true %}
+          {% for key in keyvaluepair %}
+            {% if key[1] %}
+              <th class="sort" data-sort="db-{{ key[0] | replace: ' ', '-'}}">{{ key[0] }}</th>
+            {% endif %}
+          {% endfor %}            
+        {% endif %}        
+      {% endfor %}
+    </tr>
+  </thead>
+
+  <tbody class="list">
+  {% for keyvaluepair in year[1] %}
+    <tr>
+      {% for key in keyvaluepair %}
+        {% if key[1] %}
+          <td class="db-{{key[0] | replace: ' ', '-'}}">{{ key[1] }}</td>
+        {% endif %}
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+
+</table>
