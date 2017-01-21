@@ -26,6 +26,8 @@
 	);
 
 // Palette.
+	//Change link colors by changing the accent color
+	$accent: #49bf9d; //default #49bf9d
 	$palette: (
 		bg:					#fff,
 		fg:					#a2a2a2,
@@ -37,10 +39,10 @@
 		border2-bg:			#e7e7e7,
 
 		accent1: (
-			bg:				#49bf9d,
-			fg:				mix(#49bf9d, #ffffff, 25%),
+			bg:				$accent,
+			fg:				mix($accent, #ffffff, 25%),
 			fg-bold:		#ffffff,
-			fg-light:		mix(#49bf9d, #ffffff, 40%),
+			fg-light:		mix($accent, #ffffff, 40%),
 			border:			rgba(255,255,255,0.25),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(255,255,255,0.5),

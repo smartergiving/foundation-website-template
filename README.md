@@ -57,7 +57,9 @@ For those familiar with Jekyll and Github Pages, the template is fully compatibl
 
 4. **Featured Projects**: The featured project cards are found in the `_featured-cards/` directory. Images are found in `assets/images/featured-cards/`. To change an image, simply replace the existing files (e.g. upload a new `card3.jpg` for the lower left image, but do not change the filename from `card3.jpg`).
 
-4. **Grants Database**: See full instructions below.
+5. **Grants Database**: See full instructions below.  
+
+6. **Colors**: Change the primary accent color by adjusting `/assets/css/_sass/skel/_vars.scss` [(link)](https://github.com/smartergiving/foundation-website-template/blob/gh-pages/assets/css/_sass/skel/_vars.scss#L30) 
 
 ## Grants Database  
 
