@@ -5,10 +5,10 @@ grant_application_login: https://www.grantinterface.com/Common/LogOn.aspx?eqs=kw
 
 # Social media settings
 # Enter the full profile url (e.g. https://twitter.com/smartergiving)
-twitter: https://twitter.com/smartergiving
-facebook: 
-instagram: 
-github_profile: https://github.com/smartergiving
+profile_twitter: https://twitter.com/examplefdn
+profile_facebook: https://facebook.com/the-example-foundation
+profile_instagram: 
+profile_github: 
 
 # Site settings
 title: # Defaults to foundation_name if left blank

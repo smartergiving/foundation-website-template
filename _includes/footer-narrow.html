@@ -1,17 +1,14 @@
 <!-- Footer -->
 <footer id="footer" class="footer-narrow">
   <ul class="icons">
-    {% if site.twitter %}
-      <li><a href="{{site.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+    {% if site.profile_twitter %}
+      <li><a href="{{site.profile_twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
     {% endif %}
-    {% if site.facebook %}
-      <li><a href="{{site.facebook}}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+    {% if site.profile_facebook %}
+      <li><a href="{{site.profile_facebook}}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
     {% endif %}
-    {% if site.instagram %}
-      <li><a href="{{site.instagram}}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-    {% endif %}
-    {% if site.github_profile %}
-      <li><a href="{{site.github_profile}}" class="icon fa-github"><span class="label">Github</span></a></li>
+    {% if site.profile_instagram %}
+      <li><a href="{{site.profile_instagram}}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
     {% endif %}
   </ul>
   {% if site.foundation_name %}
