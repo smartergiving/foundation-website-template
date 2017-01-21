@@ -1,8 +1,7 @@
 <!-- Header -->
 <header id="header">
   <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/images/logo.png" alt="Logo"></a>
-  {% if site.foundation_tagline %}
-    <h1 class="tagline"><em>{{ site.foundation_tagline }}</em></h1>
-  {% endif %}
+  	<!-- It's OK to remove everything between the <em> and </em> tags and include your own text or html -->
+    <h1 class="tagline"><em>{% if site.foundation_tagline %}{{ site.foundation_tagline }}{% endif %}</em></h1>
   {% include nav.html %}
 </header>

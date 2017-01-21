@@ -229,6 +229,9 @@ $screen-short-min:           $screen-short;
     width: 60%;
     margin-bottom: 20px;
   }
+  h1.tagline {
+    min-height: 38px;
+  }
   nav {
     margin-top: 30px;
     ul {
