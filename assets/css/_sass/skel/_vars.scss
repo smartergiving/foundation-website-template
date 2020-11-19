@@ -19,15 +19,15 @@
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('Lobster Two', cursive),
+		family-fixed:		('Open Sans', sans-serif),
 		weight:				400,
 		weight-bold:		400
 	);
 
 // Palette.
 	//Change link colors by changing the accent color
-	$accent: #49bf9d; //default #49bf9d
+	$accent: #3774E5; //default #49bf9d
 	$palette: (
 		bg:					#fff,
 		fg:					#a2a2a2,
